@@ -31,6 +31,7 @@ function colourFor(pct) {
   return '#fef0d9';
 }
 
+
 // Two files at once: Promise.all waits until both have loaded, then gives us both.
 Promise.all([
   fetch('../data/ruelle_grid.geojson').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status + ' loading sewer_grid.geojson'); return r.json(); }),
@@ -95,6 +96,127 @@ Promise.all([
 });
 
 //Ends here
+//I changed this
+function setupArrondissementSearch(features) {
+  // Find the search box, suggestion list, status message, and results area in the HTML.
+  const input = document.getElementById('arrondissement-search');
+  const options = document.getElementById('arrondissement-options');
+  const status = document.getElementById('arrondissement-status');
+  const results = document.getElementById('arrondissement-results');
+
+  // Trim extra spaces and ignore upper/lowercase differences when comparing text.
+  function normalize(value) {
+    return String(value || '').trim().toLowerCase();
+  }
+
+  // Get the arrondissement value from each record, remove blanks and duplicates,
+  // then sort the names alphabetically for the suggestion list.
+  const arrondissements = [...new Set(
+    features
+      .map(function (feature) {
+        return feature.properties.arrondissement;
+      })
+      .filter(Boolean)
+      .map(function (name) {
+        return String(name).trim();
+      })
+  )].sort(function (a, b) {
+    return a.localeCompare(b, 'fr');
+  });
+
+  // Add each arrondissement as an option that appears while the user types.
+  options.replaceChildren(
+    ...arrondissements.map(function (name) {
+      const option = document.createElement('option');
+      option.value = name;
+      return option;
+    })
+  );
+
+  // Run this code whenever the user types in or selects a search value.
+  input.addEventListener('input', function () {
+    const query = normalize(input.value);
+
+    // Clear results from the previous search.
+    results.replaceChildren();
+
+    // If the search box is empty, prompt the user to enter a name.
+    if (!query) {
+      status.textContent = 'Type or select an arrondissement to see its locations.';
+      return;
+    }
+
+    // Check whether the typed text matches a full arrondissement name.
+    // Matching ignores capitalization and extra spaces.
+    const selectedArrondissement = arrondissements.find(function (name) {
+      return normalize(name) === query;
+    });
+
+    // If it isn't an exact match, ask the user to choose a suggested name.
+    if (!selectedArrondissement) {
+      status.textContent = 'Choose or type an arrondissement name from the suggestions.';
+      return;
+    }
+
+    // Keep only the GeoJSON records for the selected arrondissement.
+    const matches = features.filter(function (feature) {
+      return normalize(feature.properties.arrondissement) === query;
+    });
+
+    // Show a message and stop if there are no matching records.
+    if (matches.length === 0) {
+      status.textContent = 'No locations found for ' + selectedArrondissement + '.';
+      return;
+    }
+
+    // Create a group for each resource type, such as "graine" or "graine et outil".
+    const groups = new Map();
+
+    matches.forEach(function (feature) {
+      const properties = feature.properties;
+
+      // Use "Not specified" if a record has no resource value.
+      const resource = String(properties.resources || '').trim() || 'Not specified';
+
+      // Start an empty list the first time this resource type appears.
+      if (!groups.has(resource)) {
+        groups.set(resource, []);
+      }
+
+      // Add the record's name to the list for its resource type.
+      groups.get(resource).push(properties.name || 'Unnamed site');
+    });
+
+    // Sort the resource groups alphabetically and display each group.
+    [...groups.keys()].sort(function (a, b) {
+      return a.localeCompare(b, 'fr');
+    }).forEach(function (resource) {
+      // Make a heading with the resource type.
+      const heading = document.createElement('h3');
+      heading.textContent = resource;
+      results.appendChild(heading);
+
+      // Make a list of record names for this resource type.
+      const list = document.createElement('ul');
+
+      // Sort names alphabetically, then add each one as a list item.
+      groups.get(resource).sort(function (a, b) {
+        return a.localeCompare(b, 'fr');
+      }).forEach(function (name) {
+        const item = document.createElement('li');
+        item.textContent = name;
+        list.appendChild(item);
+      });
+
+      // Add the finished list under its resource heading.
+      results.appendChild(list);
+    });
+
+    // Tell the user how many records matched the selected arrondissement.
+    status.textContent =
+      matches.length + ' location(s) in ' + selectedArrondissement + '.';
+  });
+}
 
 fetch('../data/polisources.geojson')
   .then(function (response) {
@@ -102,6 +224,7 @@ fetch('../data/polisources.geojson')
     return response.json();
   })
   .then(function (data) {
+    setupArrondissementSearch(data.features);
     const shown = { type: 'FeatureCollection', features: data.features.slice(0, LIMIT) };
 
     L.geoJSON(shown, {
