@@ -1,0 +1,87 @@
+:root {
+  --accent: #050917;   /* your one colour: change it here only */
+  --text: #1b1f2a;
+  --muted: #5b6477;
+}
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif; /* I changed this */
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--text);
+  background:#d7ccac
+}
+header {
+  text-align: center;
+}
+.story{
+  text-align: center;
+  
+}
+.highlight { /* I changed this */
+  background-color: rgb(231, 231, 216);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.resource-marker {
+  background: transparent;
+  border: 1;
+}
+
+.resource-marker span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 2px solid #1F2D5A;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 22px;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.legend .resource-symbol {
+  display: inline;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  margin-right: 6px;
+}
+.page { /*I changed this*/
+  display: grid;
+  grid-template-columns: 1fr 2fr;   /* story column, then a wider map */
+  gap: 10px;
+  background:#d7ccac; /*I changed this*/
+  
+}
+@media (max-width: 800px) {
+  .page { grid-template-columns: 1fr; }   /* one column on a phone */
+}
+h1, h2 { color: var(--accent); line-height: 1.2; }
+h1 { font-size: 30px; margin-top: 0; }
+h2 { font-size: 20px; margin-top: 28px; }
+.lede { font-size: 19px; }
+#status { color: var(--muted); font-size: 15px; }
+a { color: var(--accent); }
+#map {
+  position: sticky; /*I changed this*/
+  top: 16px;
+  right: 5px;
+  width: 65vw;
+  height: calc(100vh - 32px);
+  min-height: 420px;
+  border-radius: 10px;
+  border: 2px solid #1F2D5A; /* adding a box around the map */
+  box-sizing: border-box;
+}
+@media (max-width: 800px) {
+  .page { grid-template-columns: 1fr; }   /* one column on a phone: story, then map */
+  #map { height: 70vh; }
+}
+.legend { background: #fff; padding: 6px 10px; border-radius: 6px; line-height: 1.6; font-size: 14px; }
+.legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+/*I changed this*/
+.legend { background: #fff ;border: 2px solid #1F2D5A; padding: 8px 10px; border-radius: 6px; line-height: 1.7; font-size: 13px; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.legend strong { display: block; margin-bottom: 2px; }
+.legend i { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -2px; border: 1px solid #999; }

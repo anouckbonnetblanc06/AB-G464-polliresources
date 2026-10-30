@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bee Supportive</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <main class="story">
+      <h1>Find locations of resources here to help preserve the pollinator species of Montreal</h1>
+      <p class="highlight"> Without pollinators, growing crops, fruits and flowers, which are critical resources on which rely humans and many other species, would be much more difficult that it is now. However, urban expansion and the fragmentation of ecosystems have been threatening our little friends. As of today we are witnessing an alarming
+        decline in animal and vegetal species especially among bees and other pollinators. </p >
+      <p><strong>This map is for</strong> people who'd like to flourish their gardens while making them more suitable for pollinators.</p>
+      <p><strong>What you can do here:</strong> Locate <strong>grainotheques</strong> where you can get pollinator-attractive plant's seeds and gradening tools for free. You don't own a garden ? No worries, this map will show you all the spots nearby where you can garden.</p>
+      <p id="status">Loading...</p>
+
+      <section>
+        <p>I wanted to add popups that gives informations on what kind of species (plants and animals) we can find in the different boroughs of Montrel  </p>
+        
+      </section>
+      <section>
+        <h2>Where this comes from</h2>
+        <ul>
+          <li><a href="https://donnees.montreal.ca/dataset/jardins-communautaires">community gardens</a>, Ville de Montreal, Creative Commons Attribution 4.0 International, accessed : 14/10/26. More informations were added to this dataset. These are the postal codes, and website </li>
+          <li><a href="https://www.donneesquebec.ca/recherche/dataset/vmtl-lieux-culturels">municipal and cultural buildings </a>, Ville de Montreal, Licence Creative Commons 4.0, accessed :14/10/26. Not all the libraries from this datasets are shown on the map</li>
+        </ul>
+        
+
+      </section>
+    </main>
+    <div id="map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
