@@ -1,0 +1,103 @@
+id,N,11,0;nom,C,254;arrondisse,C,254;adresse,C,254;date_creat,C,10;date_revis,C,10;Longitude,N,31,15;Latitude,N,31,15;Shape_Area,N,31,15
+10411;Jardin communautaire Sainte-Maria-Goretti;RiviÞre-des-PrairiesuPointe-aux-Trembles;94e Avenue et de la terrasse Sainte-Maria-Goretti, MontrUal, QC, CA;2021-01-27;2021-06-08;-73.482498430000000;45.697943150000000;759.307617261000000
+10383;Jardin communautaire des Belles-Roses;RiviÞre-des-PrairiesuPointe-aux-Trembles;89e Avenue et boulevard Gouin Est, MontrUal, QC, CA;2021-01-26;2022-06-30;-73.539506200000000;45.672785040000000;1039.869194930000000
+10410;Jardin communautaire du parc Richelieu;RiviÞre-des-PrairiesuPointe-aux-Trembles;40e Avenue & Rue Forsyth, MontrUal, QC, CA;2021-01-27;2021-06-08;-73.504442650000000;45.663721910000000;1766.363902480000000
+10409;Jardin communautaire Pierre-Lacroix;RiviÞre-des-PrairiesuPointe-aux-Trembles;Rues Lorraine et Parent, MontrUal, QC, CA;2021-01-27;2022-10-28;-73.495286730000000;45.646110760000000;2722.393824470000000
+10382;Jardin communautaire Les Arpents Verts;RiviÞre-des-PrairiesuPointe-aux-Trembles;Rue la GalissonniÞre, MontrUal, QC, CA, H1C 0B7;2021-01-26;2021-06-08;-73.549794620000000;45.661393640000000;3833.911190990000000
+10384;Jardin communautaire Sainte-Marthe;RiviÞre-des-PrairiesuPointe-aux-Trembles;Boulevard Armand-Bombardier et boulevard Perras, MontrUal, QC, CA;2021-01-26;2021-06-08;-73.598130140000000;45.638599570000000;2639.662377040000000
+10110;Jardin communautaire du parc Tardif;MontrUal-Nord;6455, rue Tardif, MontrUal, QC, CA, H1G6K5;2021-01-15;2024-03-07;-73.617312800000000;45.618523550000000;1323.669167760000000
+10109;Jardin communautaire du parc Oscar;MontrUal-Nord;10660, boulevard Saint-Michel, MontrUal, QC, CA, H1H5H6;2021-01-15;2024-03-07;-73.648811440000000;45.582516080000000;1627.185104850000000
+10681;Jardin communautaire Ahuntsic;Ahuntsic-Cartierville;Rue Arcand, MontrUal, QC, CA, H1N 3P8;2021-02-03;2023-03-03;-73.648811910000000;45.577817770000000;4204.526519030000000
+10682;Jardin communautaire Sault-au-RUcollet;Ahuntsic-Cartierville;2425, boulevard Gouin Est, prÞs de la rue du Pressoir, MontrUal, QC, CA, H2B1X7;2021-02-03;2023-03-03;-73.659773600000000;45.576331250000000;1893.578322310000000
+10671;Jardin communautaire Pierre-Lapointe;Ahuntsic-Cartierville;10555, rue Lajeunesse, MontrUal, QC, CA, H3L2E5;2021-02-03;2023-03-03;-73.666061870000000;45.557049650000000;2588.304958680000000
+10669;Jardin communautaire Marcelin-Wilson;Ahuntsic-Cartierville;11301, boulevard de l'Acadie, MontrUal, QC, CA, H3M2T1;2021-02-03;2023-03-03;-73.683145170000000;45.537074080000000;6043.428837910000000
+4282;Jardin communautaire Deschamps;Ahuntsic-Cartierville;Rue Deschamps, prÞs de la rue De Salaberry, MontrUal, QC, CA, H3L3M9;2020-03-13;2023-03-03;-73.694308610000000;45.544257540000000;2080.896620220000000
+4283;Jardin communautaire GUrard-Legault;Ahuntsic-Cartierville;Rue Dudemaine, prÞs de la rue Michel-Sarrazin, MontrUal, QC, CA;2020-03-13;2023-03-03;-73.706081700000000;45.524676270000000;4269.181861430000000
+10467;Jardin communautaire du parc NoEl-Nord;Saint-Laurent;2900, rue Baker, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.727123970000000;45.517131920000000;1037.684190310000000
+4281;Jardin communautaire Christ-Roi;Ahuntsic-Cartierville;Rue FrUmont, Entre l'avenue Millen et l'avenue De ChOteaubriand, MontrUal, QC, CA;2020-03-13;2023-03-03;-73.651853360000000;45.552690480000000;1887.152912810000000
+10579;Jardin communautaire ChampdorU;VillerayuSaint-MicheluParc-Extension;9400, avenue Charton, MontrUal, QC, CA;2021-02-01;2023-11-01;-73.641438710000000;45.565624780000000;5927.985847180000000
+10580;Jardin communautaire de Lille;VillerayuSaint-MicheluParc-Extension;9400, avenue BruchUsie, MontrUal, QC, CA, H1Z2P4;2021-02-01;2023-11-01;-73.637814770000000;45.570172830000000;1289.111084610000000
+10592;Jardin communautaire Le Goupillier;VillerayuSaint-MicheluParc-Extension;9661, boulevard Pie-IX, Au coin du boulevard Pie-IX et de la rue J-B-Martineau, MontrUal, QC, CA, H1Z3W9;2021-02-01;2023-11-01;-73.628234580000000;45.583483820000000;2031.041199920000000
+10482;Jardin communautaire Couture;Saint-LUonard;4855, boulevard Couture, MontrUal, QC, CA;2021-01-28;2023-06-30;-73.616307890000000;45.587392040000000;1415.550764210000000
+10173;Jardin communautaire du parc Lucie-Bruneau;Anjou;7051, avenue de l'Alsace, MontrUal, QC, CA;2021-01-19;2024-04-30;-73.583103280000000;45.602954160000000;2131.623277960000000
+10172;Jardin communautaire du parc AndrU Laurendeau;Anjou;8361, avenue AndrU-Laurendeau, MontrUal, QC, CA;2021-01-19;2023-08-30;-73.570022220000000;45.603570910000000;2791.538021940000000
+10165;Jardin communautaire Roi-RenU;Anjou;Boulevard Roi-RenU, MontrUal, QC, CA, H1K1B5;2021-01-18;2023-10-16;-73.557165090000000;45.612854450000000;2505.940425930000000
+10176;Jardin communautaire du parc Roger-Rousseau;Anjou;7501, avenue Rondeau, MontrUal, QC, CA;2021-01-19;2023-10-16;-73.550058230000000;45.617930580000000;2052.570576310000000
+10329;Jardin communautaire BP TUtreaultville;MercieruHochelaga-Maisonneuve;Rue Aubry et rue de Marseille, MontrUal, QC, CA;2021-01-22;2022-05-10;-73.523998610000000;45.609699710000000;3567.996485010000000
+12098;Jardin communautaire Clement-Jette Nord;MercieruHochelaga-Maisonneuve;549 Rue Joffre, Montreal, QC, CA, H1L 2W6;2021-03-18;2022-05-10;-73.515012300000000;45.602569480000000;5717.442439300000000
+10375;Jardin communautaire Pierre-Bernard;MercieruHochelaga-Maisonneuve;Boulevard Pierre-Bernard et rue Bisaillon, MontrUal, QC, CA, H1L 6L3;2021-01-26;2022-05-10;-73.529566510000000;45.607304950000000;619.815670415000000
+10335;Jardin communautaire du parc DupUrU;MercieruHochelaga-Maisonneuve;Rue Saint-Donat et rue de Forbin-Janson, MontrUal, QC, CA, H1K 3N6;2021-01-22;2022-05-10;-73.534174670000000;45.600855640000000;6232.641630030000000
+10164;Jardin communautaire Notre-Dame;Anjou;Avenue de l'ArUna, MontrUal, QC, CA, H1K2B3;2021-01-18;2023-10-16;-73.542701390000000;45.601798510000000;3570.198707090000000
+10175;Jardin communautaire du parc de Spalding;Anjou;7901, avenue Spalding, MontrUal, QC, CA;2021-01-19;2023-10-16;-73.552941720000000;45.603042050000000;2524.980557320000000
+10174;Jardin communautaire du parc des Roseraies;Anjou;7070, avenue de la Nantaise, MontrUal, QC, CA;2021-01-19;2023-10-16;-73.554324260000000;45.592374410000000;1535.654551230000000
+65916;Jardin communautaire de l'Institut universitaire en santU mentale de MontrUal;MercieruHochelaga-Maisonneuve;7401, rue Hochelaga, MontrUal, QC, CA, H1N3M5 / Rue de Marseille et rue du Trianon, MontrUal, QC, CA, H1N3V2;2021-01-25;2024-04-25;-73.533207930000000;45.589971710000000;5415.573836510000000
+10325;Jardin communautaire Arc-en-sol;MercieruHochelaga-Maisonneuve;8115, rue Arthur-PUloquin, MontrUal, QC, CA;2021-01-22;2022-05-10;-73.532017100000000;45.581636960000000;4081.674552250000000
+10367;Jardin communautaire Marseille;MercieruHochelaga-Maisonneuve;Rue Du Quesne et rue de Marseille, MontrUal, QC, CA, H1N 1K8;2021-01-25;2022-05-10;-73.541694190000000;45.576440250000000;253.433735558000000
+10368;Jardin communautaire MonsabrU;MercieruHochelaga-Maisonneuve;Rue MonsabrU et rue de Toulouse, MontrUal, QC, CA;2021-01-25;2022-05-10;-73.535153440000000;45.569288230000000;5526.420328490000000
+10332;Jardin communautaire Cabrini-annexe;MercieruHochelaga-Maisonneuve;Rue Cabrini et boulevard Rosemont, MontrUal, QC, CA;2021-01-22;2022-05-10;-73.561689400000000;45.579872030000000;351.564700912000000
+10333;Jardin communautaire Jacques-Charbonneau;MercieruHochelaga-Maisonneuve;6605 Rue Cabrini, MontrUal, QC, CA, H1T 2J8;2021-01-22;2022-06-28;-73.566483380000000;45.582122080000000;3932.065981320000000
+10433;Jardin communautaire PrU-CarrU;RosemontuLa Petite-Patrie;4235, rue Viau, MontrUal, QC, CA, H1S2N8;2021-01-27;2023-04-27;-73.555665040000000;45.569179030000000;4639.994377950000000
+65907;Antenne Ferroviaire Longue-Pointe;MercieruHochelaga-Maisonneuve;2166, rue ThUodore, MontrUal, QC, CA, H1V3B9;2024-02-22;2024-02-22;-73.538759560000000;45.558316580000000;489.017872014000000
+10365;Jardin communautaire Maisonneuve;MercieruHochelaga-Maisonneuve;Avenue LUtourneux et rue de Rouen, MontrUal, QC, CA, H1V 2N8;2021-01-25;2022-05-10;-73.542039040000000;45.554014390000000;6072.398024460000000
+65908;Jardin communautaire Hochelaga;MercieruHochelaga-Maisonneuve;3452, rue Cuvillier, MontrUal, QC, CA, H1W1T9;2024-02-22;2024-02-22;-73.544206470000000;45.543569130000000;856.032683014000000
+10424;Jardin communautaire Laurier;RosemontuLa Petite-Patrie;12e Avenue, MontrUal, QC, CA, H1X2X7;2021-01-27;2023-04-27;-73.569422490000000;45.550813970000000;1577.900799390000000
+10434;Jardin communautaire Rosemont;RosemontuLa Petite-Patrie;30e Avenue et boulevard Rosemont, MontrUal, QC, CA;2021-01-27;2023-05-10;-73.568896750000000;45.565210890000000;5383.187055030000000
+10426;Jardin communautaire L'╔glantier;RosemontuLa Petite-Patrie;31e Avenue et boulevard Rosemont, MontrUal, QC, CA;2021-01-27;2023-05-10;-73.568167190000000;45.565605690000000;3081.654588820000000
+10481;Jardin communautaire Arthur-PUloquin;Saint-LUonard;;2021-01-28;2023-06-30;-73.598158990000000;45.579035780000000;2326.195487330000000
+10420;Jardin communautaire ╔tienne-Desmarteau;RosemontuLa Petite-Patrie;18e Avenue et rue de Bellechasse, MontrUal, QC, CA;2021-01-27;2023-04-27;-73.578020780000000;45.557968690000000;5378.914009300000000
+52501;Jardin libre du parc Beaubien;RosemontuLa Petite-Patrie;Angle de la rue Saint-Zotique Est et de la 9e Avenue, MontrUal, QC, CA, H1Y2K8;2023-07-04;2024-04-30;-73.590666070000000;45.554330920000000;700.216893486000000
+10436;Jardin communautaire Saint-Marc;RosemontuLa Petite-Patrie;1ere Avenue, MontrUal, QC, CA;2021-01-27;2023-04-27;-73.595888450000000;45.553309570000000;1100.308844430000000
+10595;Jardin communautaire Le Michelois;VillerayuSaint-MicheluParc-Extension;8615, boulevard Saint-Michel, MontrUal, QC, CA;2021-02-01;2023-11-01;-73.619194270000000;45.568487380000000;1627.328125540000000
+10680;Jardin communautaire Saint-Sulpice;Ahuntsic-Cartierville;avenues ╔mile-Journault et AndrU-Grasset, MontrUal, QC, CA;2021-02-03;2023-03-03;-73.635344250000000;45.556732270000000;10022.886689400000000
+10581;Jardin communautaire De Normanville;VillerayuSaint-MicheluParc-Extension;7955, rue De Normanville, Entre les rues Jarry et Tillemont, MontrUal, QC, CA;2021-02-01;2023-11-01;-73.620272330000000;45.548450690000000;1223.537114140000000
+10596;Jardin communautaire Villeray;VillerayuSaint-MicheluParc-Extension;8000, avenue Christophe-Colomb, MontrUal, QC, CA, H2R2W1;2021-02-01;2023-11-01;-73.622986310000000;45.547035590000000;6106.673139850000000
+10429;Jardin communautaire du parc du PÞre-Marquette;RosemontuLa Petite-Patrie;Rue de Bellechasse, MontrUal, QC, CA, H2G1N6;2021-01-27;2023-05-10;-73.595749920000000;45.539912130000000;3984.589560320000000
+10416;Jardin communautaire Basile-Patenaude;RosemontuLa Petite-Patrie;Place Basile-Patenaude et rue Dandurand, MontrUal, QC, CA;2021-01-27;2023-04-27;-73.578262670000000;45.544637660000000;2690.629860110000000
+10257;Jardin communautaire De Lorimier;Le Plateau-Mont-Royal;Rue Gilford et avenue De Lorimier, MontrUal, QC, CA, H2H2B5;2021-01-21;2024-04-03;-73.575637220000000;45.536238320000000;3726.252635330000000
+10263;Jardin communautaire du parc Baldwin;Le Plateau-Mont-Royal;Rue Fullum, MontrUal, QC, CA, H2H2S3;2021-01-21;2024-01-19;-73.563495810000000;45.534743940000000;1467.819915850000000
+10544;Jardin communautaire MUdUric-Martin;Ville-Marie;Avenue Gascon, entre les rues de Rouen et Ontario Est, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.554188340000000;45.534618880000000;1067.276684590000000
+10557;Jardin communautaire Sainte-Marie;Ville-Marie;Rue La Fontaine, entre les rues Fullum et Dufresne, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.551618430000000;45.529394230000000;1373.732812600000000
+10536;Jardin communautaire Centre-Sud;Ville-Marie;Rue Alexandre-DeSÞve et rue La Fontaine, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.557600510000000;45.523474300000000;1569.726883120000000
+10533;Jardin communautaire des 50 citoyens;Ville-Marie;Rue Alexandre-DeSÞve entre rue la Fontaine et rue Ontario E., MontrUal, QC, CA;2021-01-29;2023-11-22;-73.558980550000000;45.523246810000000;985.919729417000000
+10548;Jardin communautaire Panet;Ville-Marie;Rue Panet, entre les rues La Fontaine et Ontario Est, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.560404520000000;45.522783780000000;518.150315090000000
+10549;Jardin communautaire Saint-AndrU;Ville-Marie;Rue Labrecque, entre les rues Ontario Est et Sherbrooke Est, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.564295830000000;45.519664610000000;1320.799666750000000
+10556;Jardin communautaire Sainte-Catherine;Ville-Marie;Rue Saint-ThimothUe, entre le boulevard De Maisonneuve Est et la rue Robin, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.560093370000000;45.518394140000000;926.160956466000000
+10266;Jardin communautaire Rivard;Le Plateau-Mont-Royal;Rue Rivard, MontrUal, QC, CA;2021-01-21;2024-01-19;-73.584902670000000;45.525479690000000;996.881983830000000
+10258;Jardin communautaire Mile End;Le Plateau-Mont-Royal;Avenue Henri-Julien, MontrUal, QC, CA, H2T2E5;2021-01-21;2024-01-19;-73.593245470000000;45.526756440000000;2425.470967100000000
+10543;Jardin communautaire des Habitations Jeanne-Mance;Ville-Marie;Boulevard De Maisonneuve Est, Entre les rues Sanguinet et Saint-Dominique, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.564108980000000;45.512833490000000;1190.375268910000000
+10538;Jardin communautaire Faubourg Saint-Laurent;Ville-Marie;Rue Saint-Dominique, entre la rue Ontario Est et le boulevard De Maisonneuve Est, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.565539720000000;45.511487540000000;415.430385812000000
+10423;Jardin communautaire La Mennais;RosemontuLa Petite-Patrie;Rue Beaubien Est et rue Drolet, MontrUal, QC, CA, H2S1R8;2021-01-27;2023-04-27;-73.606189620000000;45.533967860000000;1943.378684630000000
+10577;Jardin communautaire Babylone;VillerayuSaint-MicheluParc-Extension;Avenue Ball, MontrUal, QC, CA;2021-02-01;2023-11-01;-73.632858500000000;45.532657640000000;5232.599902870000000
+10540;Jardin communautaire Georges-Vanier;Ville-Marie;Rues Saint-Jacques et Jean-D'EstrUes, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.566740740000000;45.495264380000000;2050.840253180000000
+10560;Jardin communautaire Versailles;Ville-Marie;Rue Saint-Antoine Ouest et rue de Versailles, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.570166800000000;45.493854420000000;2159.323457240000000
+10278;Jardin communautaire des Seigneurs;Le Sud-Ouest;Rue des Seigneurs et rue Saint-Jacques, MontrUal, QC, CA, H3J 1H2;2021-01-21;2024-04-16;-73.572943600000000;45.489110030000000;3200.570496280000000
+10277;Jardin communautaire Petite-Bourgogne;Le Sud-Ouest;2247 Rue Quesnel, MontrUal, QC, CA, H3J 1G3;2021-01-21;2024-04-16;-73.576010490000000;45.487422510000000;1444.058233230000000
+10276;Jardin communautaire La LUgumiÞre Rose-de-Lima;Le Sud-Ouest;3467 Rue Delisle , MontrUal, QC, CA, H4C 1N1;2021-01-21;2024-04-16;-73.580675850000000;45.481666930000000;2434.939093320000000
+10271;Jardin communautaire les bons voisins;Le Sud-Ouest;Rue Turgeon et rue Sainte-╔milie, MontrUal, QC, CA;2021-01-21;2024-04-16;-73.579669390000000;45.478059650000000;1120.153069230000000
+10281;Jardin communautaire Pointe-Verte;Le Sud-Ouest;Rue Knox, MontrUal, QC, CA, H3K 1R1;2021-01-21;2024-04-16;-73.564433120000000;45.477368610000000;949.758334507000000
+10505;Jardin communautaire du parc Lucien-Caron;Verdun;3751, Boulevard Gaetan Laberge, MontrUal, QC, CA;2021-01-28;2022-05-06;-73.562860890000000;45.466034210000000;256.523337520000000
+10483;Jardin communautaire du parc Adrien-D.-Archambault;Verdun;790, boulevard de la forest, ╬le-des-Soeurs, MontrUal, QC, CA;2021-01-28;2023-08-22;-73.557579910000000;45.456699760000000;5322.135924850000000
+46006;Jardin communautaire du parc Desmarchais;Verdun;5300, boulevard LaSalle, Verdun, QC, CA, H4H1P2;2023-03-21;2024-04-16;-73.565398040000000;45.452756550000000;1900.949671760000000
+10484;Jardin communautaire du parc Woodland;Verdun;5550, Boulevard LaSalle, MontrUal, QC, CA;2021-01-28;2022-05-06;-73.566320010000000;45.451670810000000;3253.186555190000000
+10269;Jardin communautaire du parc Angrignon;Le Sud-Ouest;Boulevard des Trinitaires et rue Lacroix, MontrUal, QC, CA;2021-01-21;2023-02-23;-73.600606970000000;45.445095450000000;2755.285208770000000
+10256;Jardin communautaire Saint-Raymond;C¶te-des-NeigesuNotre-Dame-de-GrOce;Chemin Upper-Lachine et avenue d'Oxford, MontrUal, QC, CA;2021-01-21;2021-10-14;-73.609861930000000;45.470048160000000;784.873725141000000
+10249;Jardin communautaire Rencontres;C¶te-des-NeigesuNotre-Dame-de-GrOce;Avenue Notre-Dame-de-GrOce et rue Botrel, MontrUal, QC, CA;2021-01-21;2021-10-14;-73.616339470000000;45.475786520000000;1440.947235530000000
+10244;Jardin communautaire Notre-Dame-de-GrOce;C¶te-des-NeigesuNotre-Dame-de-GrOce;Avenue Royal, MontrUal, QC, CA,  H4A2M7;2021-01-20;2021-10-14;-73.628561330000000;45.472732300000000;2282.944052740000000
+10188;Jardin communautaire ChOteaufort;C¶te-des-NeigesuNotre-Dame-de-GrOce;Avenue Van Horne et avenue de Darlington, MontrUal, QC, CA;2021-01-19;2023-12-04;-73.626878050000000;45.507435160000000;6437.584718060000000
+10235;Jardin communautaire de la Savane;C¶te-des-NeigesuNotre-Dame-de-GrOce;Avenue Mountain Sights, MontrUal, QC, CA;2021-01-20;2023-12-04;-73.653575730000000;45.498267300000000;1400.788573990000000
+10472;Jardin communautaire super jardin;Saint-Laurent;545, avenue Sainte-Croix, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.669708670000000;45.516437000000000;1083.793328370000000
+10480;Jardin communautaire du parc Roman-Zytynsky;Saint-Laurent;1420, rue Quenneville, MontrUal, QC, CA, H4N 1V7;2021-01-28;2022-05-10;-73.678226620000000;45.528636620000000;244.362369285000000
+10470;Jardin communautaire du parc Saint-Laurent;Saint-Laurent;845, rue Poirier, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.689178600000000;45.526863990000000;854.611170786000000
+10465;Jardin communautaire du parc Hartenstein;Saint-Laurent;1505, rue Cardinal, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.692107780000000;45.519582800000000;635.034312926000000
+10466;Jardin communautaire Cardinal;Saint-Laurent;Rue Cardinal et rue TassU, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.691049200000000;45.516308160000000;1589.609015580000000
+10478;Jardin communautaire Robert-Mitchell;Saint-Laurent;Rue Crevier, MontrUal, QC, CA;2021-01-28;2022-05-10;-73.673838170000000;45.505281090000000;189.829337066000000
+10463;Jardin communautaire du parc Alexis-Nihon;Saint-Laurent;2999, rue Badeaux, MontrUal, QC, CA;2021-01-27;2022-05-10;-73.691028260000000;45.497133150000000;1104.599987250000000
+10474;Jardin communautaire du parc BourbonniÞre;Saint-Laurent;2800, rue Cazeneuve, MontrUal, QC, CA, H4R 1T9;2021-01-28;2022-05-10;-73.702238140000000;45.502433750000000;258.721539333000000
+10158;Jardin communautaire Remembrance;Lachine;Rue Remembrance et 32e Avenue, MontrUal, QC, CA;2021-01-18;2022-05-12;-73.690048070000000;45.436982780000000;5321.204052870000000
+10160;Jardin communautaire RUal-Gareau;Lachine;Rue Sherbrooke et 4e Avenue, MontrUal, QC, CA;2021-01-18;2022-06-29;-73.667951970000000;45.444708880000000;957.647110858000000
+10055;Jardins communautaires Charles-Nagy;LaSalle;SociUtU dÆhorticulture de LaSalle, Boulevard LaSalle, entre la rue des Oblats et lÆavenue BUlanger, MontrUal, QC, CA, H8R 2N5;2021-01-13;2024-03-20;-73.654889170000000;45.424611560000000;9628.352623110000000
+10059;Jardins communautaires des Rapides;LaSalle;SociUtU dÆhorticulture des Rapides, Boulevard LaSalle prÞs du canal de lÆAqueduc, MontrUal, QC, CA, H8P 1Z8;2021-01-13;2024-03-20;-73.629607020000000;45.417477120000000;8408.550157560000000
+10162;Jardin communautaire les petites-pousses;Lachine;321, rue des ╔rables, MontrUal, QC, CA;2021-01-18;2022-06-29;-73.653299580000000;45.443952250000000;177.960467989000000
+10559;Jardin communautaire Saint-EusÞbe;Ville-Marie;Rues Dufresne et LariviÞre, MontrUal, QC, CA;2021-01-29;2023-11-22;-73.556935000000000;45.533228000000000;509.545161125000000
+59080;Jardin libre du parc de la Louisiane;RosemontuLa Petite-Patrie;Devant le parc O chien (rue de Bellechasse, entre la 31e Avenue et la 35e Avenue), MontrUal, QC, CA, H1T3E3;2023-11-06;2024-04-30;-73.570964950000000;45.567727870000000;343.345418641000000
+68556;Serre Emily-De Witt;Ville-Marie;2215, rue Dufresne, MontrUal, QC, CA, H2K1L8;2024-05-07;2024-05-07;-73.557092000000000;45.532998000000000;667.608293587000000

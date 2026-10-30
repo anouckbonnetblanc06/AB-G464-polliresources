@@ -1,0 +1,103 @@
+﻿id;name;arrondissement;adresse;date_de_creation;date_de_modification;lon;lat;Shape_Area
+10411;Jardin communautaire Sainte-Maria-Goretti;Riviere-des-Prairies-Pointe-aux-Trembles;94e Avenue et de la terrasse Sainte-Maria-Goretti, Montreal, QC, CA;27/01/2021;08/06/2021;-73.48249843;45.697943150000000;759.307617261000000
+10383;Jardin communautaire des Belles-Roses;Riviere-des-Prairies-Pointe-aux-Trembles;89e Avenue et boulevard Gouin Est, Montreal, QC, CA;26/01/2021;30/06/2022;-73.5395062;45.672785040000000;1039.869194930000000
+10410;Jardin communautaire du parc Richelieu;Riviere-des-Prairies-Pointe-aux-Trembles;40e Avenue & Rue Forsyth, Montreal, QC, CA;27/01/2021;08/06/2021;-73.50444265;45.663721910000000;1766.363902480000000
+10409;Jardin communautaire Pierre-Lacroix;Riviere-des-Prairies-Pointe-aux-Trembles;Rues Lorraine et Parent, Montreal, QC, CA;27/01/2021;28/10/2022;-73.49528673;45.646110760000000;2722.393824470000000
+10382;Jardin communautaire Les Arpents Verts;Riviere-des-Prairies-Pointe-aux-Trembles;Rue la Galissonniere, Montreal, QC, CA, H1C 0B7;26/01/2021;08/06/2021;-73.54979462;45.661393640000000;3833.911190990000000
+10384;Jardin communautaire Sainte-Marthe;Riviere-des-Prairies-Pointe-aux-Trembles;Boulevard Armand-Bombardier et boulevard Perras, Montreal, QC, CA;26/01/2021;08/06/2021;-73.59813014;45.638599570000000;2639.662377040000000
+10110;Jardin communautaire du parc Tardif;Montreal-Nord;6455, rue Tardif, Montreal, QC, CA, H1G6K5;15/01/2021;07/03/2024;-73.6173128;45.618523550000000;1323.669167760000000
+10109;Jardin communautaire du parc Oscar;Montreal-Nord;10660, boulevard Saint-Michel, Montreal, QC, CA, H1H5H6;15/01/2021;07/03/2024;-73.64881144;45.582516080000000;1627.185104850000000
+10681;Jardin communautaire Ahuntsic;Ahuntsic-Cartierville;Rue Arcand, Montreal, QC, CA, H1N 3P8;03/02/2021;03/03/2023;-73.64881191;45.577817770000000;4204.526519030000000
+10682;Jardin communautaire Sault-au-Recollet;Ahuntsic-Cartierville;2425, boulevard Gouin Est, pres de la rue du Pressoir, Montreal, QC, CA, H2B1X7;03/02/2021;03/03/2023;-73.6597736;45.576331250000000;1893.578322310000000
+10671;Jardin communautaire Pierre-Lapointe;Ahuntsic-Cartierville;10555, rue Lajeunesse, Montreal, QC, CA, H3L2E5;03/02/2021;03/03/2023;-73.66606187;45.557049650000000;2588.304958680000000
+10669;Jardin communautaire Marcelin-Wilson;Ahuntsic-Cartierville;11301, boulevard de l Acadie, Montreal, QC, CA, H3M2T1;03/02/2021;03/03/2023;-73.68314517;45.537074080000000;6043.428837910000000
+4282;Jardin communautaire Deschamps;Ahuntsic-Cartierville;Rue Deschamps, pres de la rue De Salaberry, Montreal, QC, CA, H3L3M9;13/03/2020;03/03/2023;-73.69430861;45.544257540000000;2080.896620220000000
+4283;Jardin communautaire Gerard-Legault;Ahuntsic-Cartierville;Rue Dudemaine, pres de la rue Michel-Sarrazin, Montreal, QC, CA;13/03/2020;03/03/2023;-73.7060817;45.524676270000000;4269.181861430000000
+10467;Jardin communautaire du parc Noel-Nord;Saint-Laurent;2900, rue Baker, Montreal, QC, CA;28/01/2021;10/05/2022;-73.72712397;45.517131920000000;1037.684190310000000
+4281;Jardin communautaire Christ-Roi;Ahuntsic-Cartierville;Rue Fremont, Entre lavenue Millen et lavenue De Chateaubriand, Montreal, QC, CA;13/03/2020;03/03/2023;-73.65185336;45.552690480000000;1887.152912810000000
+10579;Jardin communautaire Champdore;Villeray-Saint-Michel-Parc-Extension;9400, avenue Charton, Montreal, QC, CA;01/02/2021;01/11/2023;-73.64143871;45.565624780000000;5927.985847180000000
+10580;Jardin communautaire de Lille;Villeray-Saint-Michel-Parc-Extension;9400, avenue Bruchesie, Montreal, QC, CA, H1Z2P4;01/02/2021;01/11/2023;-73.63781477;45.570172830000000;1289.111084610000000
+10592;Jardin communautaire Le Goupillier;Villeray-Saint-Michel-Parc-Extension;9661, boulevard Pie-IX, Au coin du boulevard Pie-IX et de la rue J-B-Martineau, Montreal, QC, CA, H1Z3W9;01/02/2021;01/11/2023;-73.62823458;45.583483820000000;2031.041199920000000
+10482;Jardin communautaire Couture;Saint-Leonard;4855, boulevard Couture, Montreal, QC, CA;28/01/2021;30/06/2023;-73.61630789;45.587392040000000;1415.550764210000000
+10173;Jardin communautaire du parc Lucie-Bruneau;Anjou;7051, avenue de lAlsace, Montreal, QC, CA;19/01/2021;30/04/2024;-73.58310328;45.602954160000000;2131.623277960000000
+10172;Jardin communautaire du parc Andre Laurendeau;Anjou;8361, avenue Andre-Laurendeau, Montreal, QC, CA;19/01/2021;30/08/2023;-73.57002222;45.603570910000000;2791.538021940000000
+10165;Jardin communautaire Roi-Rene;Anjou;Boulevard Roi-Rene, Montreal, QC, CA, H1K1B5;18/01/2021;16/10/2023;-73.55716509;45.612854450000000;2505.940425930000000
+10176;Jardin communautaire du parc Roger-Rousseau;Anjou;7501, avenue Rondeau, Montreal, QC, CA;19/01/2021;16/10/2023;-73.55005823;45.617930580000000;2052.570576310000000
+10329;Jardin communautaire BP Tetreaultville;Mercier-Hochelaga-Maisonneuve;Rue Aubry et rue de Marseille, Montreal, QC, CA;22/01/2021;10/05/2022;-73.52399861;45.609699710000000;3567.996485010000000
+12098;Jardin communautaire Clement-Jette Nord;Mercier-Hochelaga-Maisonneuve;549 Rue Joffre, Montreal, QC, CA, H1L 2W6;18/03/2021;10/05/2022;-73.5150123;45.602569480000000;5717.442439300000000
+10375;Jardin communautaire Pierre-Bernard;Mercier-Hochelaga-Maisonneuve;Boulevard Pierre-Bernard et rue Bisaillon, Montreal, QC, CA, H1L 6L3;26/01/2021;10/05/2022;-73.52956651;45.607304950000000;619.815670415000000
+10335;Jardin communautaire du parc Dupere;Mercier-Hochelaga-Maisonneuve;Rue Saint-Donat et rue de Forbin-Janson, Montreal, QC, CA, H1K 3N6;22/01/2021;10/05/2022;-73.53417467;45.600855640000000;6232.641630030000000
+10164;Jardin communautaire Notre-Dame;Anjou;Avenue de lArena, Montreal, QC, CA, H1K2B3;18/01/2021;16/10/2023;-73.54270139;45.601798510000000;3570.198707090000000
+10175;Jardin communautaire du parc de Spalding;Anjou;7901, avenue Spalding, Montreal, QC, CA;19/01/2021;16/10/2023;-73.55294172;45.603042050000000;2524.980557320000000
+10174;Jardin communautaire du parc des Roseraies;Anjou;7070, avenue de la Nantaise, Montreal, QC, CA;19/01/2021;16/10/2023;-73.55432426;45.592374410000000;1535.654551230000000
+65916;Jardin communautaire de lInstitut universitaire en sante mentale de Montreal;Mercier-Hochelaga-Maisonneuve;7401, rue Hochelaga, Montreal, QC, CA, H1N3M5 / Rue de Marseille et rue du Trianon, Montreal, QC, CA, H1N3V2;25/01/2021;25/04/2024;-73.53320793;45.589971710000000;5415.573836510000000
+10325;Jardin communautaire Arc-en-sol;Mercier-Hochelaga-Maisonneuve;8115, rue Arthur-Peloquin, Montreal, QC, CA;22/01/2021;10/05/2022;-73.5320171;45.581636960000000;4081.674552250000000
+10367;Jardin communautaire Marseille;Mercier-Hochelaga-Maisonneuve;Rue Du Quesne et rue de Marseille, Montreal, QC, CA, H1N 1K8;25/01/2021;10/05/2022;-73.54169419;45.576440250000000;253.433735558000000
+10368;Jardin communautaire Monsabre;Mercier-Hochelaga-Maisonneuve;Rue Monsabre et rue de Toulouse, Montreal, QC, CA;25/01/2021;10/05/2022;-73.53515344;45.569288230000000;5526.420328490000000
+10332;Jardin communautaire Cabrini-annexe;Mercier-Hochelaga-Maisonneuve;Rue Cabrini et boulevard Rosemont, Montreal, QC, CA;22/01/2021;10/05/2022;-73.5616894;45.579872030000000;351.564700912000000
+10333;Jardin communautaire Jacques-Charbonneau;Mercier-Hochelaga-Maisonneuve;6605 Rue Cabrini, Montreal, QC, CA, H1T 2J8;22/01/2021;28/06/2022;-73.56648338;45.582122080000000;3932.065981320000000
+10433;Jardin communautaire Pre-Carre;Rosemont-La Petite-Patrie;4235, rue Viau, Montreal, QC, CA, H1S2N8;27/01/2021;27/04/2023;-73.55566504;45.569179030000000;4639.994377950000000
+65907;Antenne Ferroviaire Longue-Pointe;Mercier-Hochelaga-Maisonneuve;2166, rue Theodore, Montreal, QC, CA, H1V3B9;22/02/2024;22/02/2024;-73.53875956;45.558316580000000;489.017872014000000
+10365;Jardin communautaire Maisonneuve;Mercier-Hochelaga-Maisonneuve;Avenue Letourneux et rue de Rouen, Montreal, QC, CA, H1V 2N8;25/01/2021;10/05/2022;-73.54203904;45.554014390000000;6072.398024460000000
+65908;Jardin communautaire Hochelaga;Mercier-Hochelaga-Maisonneuve;3452, rue Cuvillier, Montreal, QC, CA, H1W1T9;22/02/2024;22/02/2024;-73.54420647;45.543569130000000;856.032683014000000
+10424;Jardin communautaire Laurier;Rosemont-La Petite-Patrie;12e Avenue, Montreal, QC, CA, H1X2X7;27/01/2021;27/04/2023;-73.56942249;45.550813970000000;1577.900799390000000
+10434;Jardin communautaire Rosemont;Rosemont-La Petite-Patrie;30e Avenue et boulevard Rosemont, Montreal, QC, CA;27/01/2021;10/05/2023;-73.56889675;45.565210890000000;5383.187055030000000
+10426;Jardin communautaire leglantier;Rosemont-La Petite-Patrie;31e Avenue et boulevard Rosemont, Montreal, QC, CA;27/01/2021;10/05/2023;-73.56816719;45.565605690000000;3081.654588820000000
+10481;Jardin communautaire Arthur-Peloquin;Saint-Leonard;8115, rue Arthur-Peloquin, Montreal,QC;28/01/2021;30/06/2023;-73.59815899;45.579035780000000;2326.195487330000000
+10420;Jardin communautaire etienne-Desmarteau;Rosemont-La Petite-Patrie;18e Avenue et rue de Bellechasse, Montreal, QC, CA;27/01/2021;27/04/2023;-73.57802078;45.557968690000000;5378.914009300000000
+52501;Jardin libre du parc Beaubien;Rosemont-La Petite-Patrie;Angle de la rue Saint-Zotique Est et de la 9e Avenue, Montreal, QC, CA, H1Y2K8;04/07/2023;30/04/2024;-73.59066607;45.554330920000000;700.216893486000000
+10436;Jardin communautaire Saint-Marc;Rosemont-La Petite-Patrie;1ere Avenue, Montreal, QC, CA;27/01/2021;27/04/2023;-73.59588845;45.553309570000000;1100.308844430000000
+10595;Jardin communautaire Le Michelois;Villeray-Saint-Michel-Parc-Extension;8615, boulevard Saint-Michel, Montreal, QC, CA;01/02/2021;01/11/2023;-73.61919427;45.568487380000000;1627.328125540000000
+10680;Jardin communautaire Saint-Sulpice;Ahuntsic-Cartierville;avenues emile-Journault et Andre-Grasset, Montreal, QC, CA;03/02/2021;03/03/2023;-73.63534425;45.556732270000000;10022.886689400000000
+10581;Jardin communautaire De Normanville;Villeray-Saint-Michel-Parc-Extension;7955, rue De Normanville, Entre les rues Jarry et Tillemont, Montreal, QC, CA;01/02/2021;01/11/2023;-73.62027233;45.548450690000000;1223.537114140000000
+10596;Jardin communautaire Villeray;Villeray-Saint-Michel-Parc-Extension;8000, avenue Christophe-Colomb, Montreal, QC, CA, H2R2W1;01/02/2021;01/11/2023;-73.62298631;45.547035590000000;6106.673139850000000
+10429;Jardin communautaire du parc du Pere-Marquette;Rosemont-La Petite-Patrie;Rue de Bellechasse, Montreal, QC, CA, H2G1N6;27/01/2021;10/05/2023;-73.59574992;45.539912130000000;3984.589560320000000
+10416;Jardin communautaire Basile-Patenaude;Rosemont-La Petite-Patrie;Place Basile-Patenaude et rue Dandurand, Montreal, QC, CA;27/01/2021;27/04/2023;-73.57826267;45.544637660000000;2690.629860110000000
+10257;Jardin communautaire De Lorimier;Le Plateau-Mont-Royal;Rue Gilford et avenue De Lorimier, Montreal, QC, CA, H2H2B5;21/01/2021;03/04/2024;-73.57563722;45.536238320000000;3726.252635330000000
+10263;Jardin communautaire du parc Baldwin;Le Plateau-Mont-Royal;Rue Fullum, Montreal, QC, CA, H2H2S3;21/01/2021;19/01/2024;-73.56349581;45.534743940000000;1467.819915850000000
+10544;Jardin communautaire Mederic-Martin;Ville-Marie;Avenue Gascon, entre les rues de Rouen et Ontario Est, Montreal, QC, CA;29/01/2021;22/11/2023;-73.55418834;45.534618880000000;1067.276684590000000
+10557;Jardin communautaire Sainte-Marie;Ville-Marie;Rue La Fontaine, entre les rues Fullum et Dufresne, Montreal, QC, CA;29/01/2021;22/11/2023;-73.55161843;45.529394230000000;1373.732812600000000
+10536;Jardin communautaire Centre-Sud;Ville-Marie;Rue Alexandre-DeSeve et rue La Fontaine, Montreal, QC, CA;29/01/2021;22/11/2023;-73.55760051;45.523474300000000;1569.726883120000000
+10533;Jardin communautaire des 50 citoyens;Ville-Marie;Rue Alexandre-DeSeve entre rue la Fontaine et rue Ontario E., Montreal, QC, CA;29/01/2021;22/11/2023;-73.55898055;45.523246810000000;985.919729417000000
+10548;Jardin communautaire Panet;Ville-Marie;Rue Panet, entre les rues La Fontaine et Ontario Est, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56040452;45.522783780000000;518.150315090000000
+10549;Jardin communautaire Saint-Andre;Ville-Marie;Rue Labrecque, entre les rues Ontario Est et Sherbrooke Est, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56429583;45.519664610000000;1320.799666750000000
+10556;Jardin communautaire Sainte-Catherine;Ville-Marie;Rue Saint-Thimothee, entre le boulevard De Maisonneuve Est et la rue Robin, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56009337;45.518394140000000;926.160956466000000
+10266;Jardin communautaire Rivard;Le Plateau-Mont-Royal;Rue Rivard, Montreal, QC, CA;21/01/2021;19/01/2024;-73.58490267;45.525479690000000;996.881983830000000
+10258;Jardin communautaire Mile End;Le Plateau-Mont-Royal;Avenue Henri-Julien, Montreal, QC, CA, H2T2E5;21/01/2021;19/01/2024;-73.59324547;45.526756440000000;2425.470967100000000
+10543;Jardin communautaire des Habitations Jeanne-Mance;Ville-Marie;Boulevard De Maisonneuve Est, Entre les rues Sanguinet et Saint-Dominique, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56410898;45.512833490000000;1190.375268910000000
+10538;Jardin communautaire Faubourg Saint-Laurent;Ville-Marie;Rue Saint-Dominique, entre la rue Ontario Est et le boulevard De Maisonneuve Est, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56553972;45.511487540000000;415.430385812000000
+10423;Jardin communautaire La Mennais;Rosemont-La Petite-Patrie;Rue Beaubien Est et rue Drolet, Montreal, QC, CA, H2S1R8;27/01/2021;27/04/2023;-73.60618962;45.533967860000000;1943.378684630000000
+10577;Jardin communautaire Babylone;Villeray-Saint-Michel-Parc-Extension;Avenue Ball, Montreal, QC, CA;01/02/2021;01/11/2023;-73.6328585;45.532657640000000;5232.599902870000000
+10540;Jardin communautaire Georges-Vanier;Ville-Marie;Rues Saint-Jacques et Jean-D'Estrees, Montreal, QC, CA;29/01/2021;22/11/2023;-73.56674074;45.495264380000000;2050.840253180000000
+10560;Jardin communautaire Versailles;Ville-Marie;Rue Saint-Antoine Ouest et rue de Versailles, Montreal, QC, CA;29/01/2021;22/11/2023;-73.5701668;45.493854420000000;2159.323457240000000
+10278;Jardin communautaire des Seigneurs;Le Sud-Ouest;Rue des Seigneurs et rue Saint-Jacques, Montreal, QC, CA, H3J 1H2;21/01/2021;16/04/2024;-73.5729436;45.489110030000000;3200.570496280000000
+10277;Jardin communautaire Petite-Bourgogne;Le Sud-Ouest;2247 Rue Quesnel, Montreal, QC, CA, H3J 1G3;21/01/2021;16/04/2024;-73.57601049;45.487422510000000;1444.058233230000000
+10276;Jardin communautaire La Legumiere Rose-de-Lima;Le Sud-Ouest;3467 Rue Delisle , Montreal, QC, CA, H4C 1N1;21/01/2021;16/04/2024;-73.58067585;45.481666930000000;2434.939093320000000
+10271;Jardin communautaire les bons voisins;Le Sud-Ouest;Rue Turgeon et rue Sainte-emilie, Montreal, QC, CA;21/01/2021;16/04/2024;-73.57966939;45.478059650000000;1120.153069230000000
+10281;Jardin communautaire Pointe-Verte;Le Sud-Ouest;Rue Knox, Montreal, QC, CA, H3K 1R1;21/01/2021;16/04/2024;-73.56443312;45.477368610000000;949.758334507000000
+10505;Jardin communautaire du parc Lucien-Caron;Verdun;3751, Boulevard Gaetan Laberge, Montreal, QC, CA;28/01/2021;06/05/2022;-73.56286089;45.466034210000000;256.523337520000000
+10483;Jardin communautaire du parc Adrien-D.-Archambault;Verdun;790, boulevard de la forest,ile-des-Soeurs, Montreal, QC, CA;28/01/2021;22/08/2023;-73.55757991;45.456699760000000;5322.135924850000000
+46006;Jardin communautaire du parc Desmarchais;Verdun;5300, boulevard LaSalle, Verdun, QC, CA, H4H1P2;21/03/2023;16/04/2024;-73.56539804;45.452756550000000;1900.949671760000000
+10484;Jardin communautaire du parc Woodland;Verdun;5550, Boulevard LaSalle, Montreal, QC, CA;28/01/2021;06/05/2022;-73.56632001;45.451670810000000;3253.186555190000000
+10269;Jardin communautaire du parc Angrignon;Le Sud-Ouest;Boulevard des Trinitaires et rue Lacroix, Montreal, QC, CA;21/01/2021;23/02/2023;-73.60060697;45.445095450000000;2755.285208770000000
+10256;Jardin communautaire Saint-Raymond;Cote-des-Neiges-Notre-Dame-de-Grace;Chemin Upper-Lachine et avenue d'Oxford, Montreal, QC, CA;21/01/2021;14/10/2021;-73.60986193;45.470048160000000;784.873725141000000
+10249;Jardin communautaire Rencontres;Cote-des-Neiges-Notre-Dame-de-Grace;Avenue Notre-Dame-de-Grace et rue Botrel, Montreal, QC, CA;21/01/2021;14/10/2021;-73.61633947;45.475786520000000;1440.947235530000000
+10244;Jardin communautaire Notre-Dame-de-Grace;Cote-des-Neiges-Notre-Dame-de-Grace;Avenue Royal, Montreal, QC, CA,  H4A2M7;20/01/2021;14/10/2021;-73.62856133;45.472732300000000;2282.944052740000000
+10188;Jardin communautaire Chateaufort;Cote-des-Neiges-Notre-Dame-de-Grace;Avenue Van Horne et avenue de Darlington, Montreal, QC, CA;19/01/2021;04/12/2023;-73.62687805;45.507435160000000;6437.584718060000000
+10235;Jardin communautaire de la Savane;Cote-des-Neiges-Notre-Dame-de-Grace;Avenue Mountain Sights, Montreal, QC, CA;20/01/2021;04/12/2023;-73.65357573;45.498267300000000;1400.788573990000000
+10472;Jardin communautaire super jardin;Saint-Laurent;545, avenue Sainte-Croix, Montreal, QC, CA;28/01/2021;10/05/2022;-73.66970867;45.516437000000000;1083.793328370000000
+10480;Jardin communautaire du parc Roman-Zytynsky;Saint-Laurent;1420, rue Quenneville, Montreal, QC, CA, H4N 1V7;28/01/2021;10/05/2022;-73.67822662;45.528636620000000;244.362369285000000
+10470;Jardin communautaire du parc Saint-Laurent;Saint-Laurent;845, rue Poirier, Montreal, QC, CA;28/01/2021;10/05/2022;-73.6891786;45.526863990000000;854.611170786000000
+10465;Jardin communautaire du parc Hartenstein;Saint-Laurent;1505, rue Cardinal, Montreal, QC, CA;28/01/2021;10/05/2022;-73.69210778;45.519582800000000;635.034312926000000
+10466;Jardin communautaire Cardinal;Saint-Laurent;Rue Cardinal et rue Tasse, Montreal, QC, CA;28/01/2021;10/05/2022;-73.6910492;45.516308160000000;1589.609015580000000
+10478;Jardin communautaire Robert-Mitchell;Saint-Laurent;Rue Crevier, Montreal, QC, CA;28/01/2021;10/05/2022;-73.67383817;45.505281090000000;189.829337066000000
+10463;Jardin communautaire du parc Alexis-Nihon;Saint-Laurent;2999, rue Badeaux, Montreal, QC, CA;27/01/2021;10/05/2022;-73.69102826;45.497133150000000;1104.599987250000000
+10474;Jardin communautaire du parc Bourbonniere;Saint-Laurent;2800, rue Cazeneuve, Montreal, QC, CA, H4R 1T9;28/01/2021;10/05/2022;-73.70223814;45.502433750000000;258.721539333000000
+10158;Jardin communautaire Remembrance;Lachine;Rue Remembrance et 32e Avenue, Montreal, QC, CA;18/01/2021;12/05/2022;-73.69004807;45.436982780000000;5321.204052870000000
+10160;Jardin communautaire Real-Gareau;Lachine;Rue Sherbrooke et 4e Avenue, Montreal, QC, CA;18/01/2021;29/06/2022;-73.66795197;45.444708880000000;957.647110858000000
+10055;Jardins communautaires Charles-Nagy;LaSalle;Societe dÆhorticulture de LaSalle, Boulevard LaSalle, entre la rue des Oblats et lÆavenue Belanger, Montreal, QC, CA, H8R 2N5;13/01/2021;20/03/2024;-73.65488917;45.424611560000000;9628.352623110000000
+10059;Jardins communautaires des Rapides;LaSalle;Societe dÆhorticulture des Rapides, Boulevard LaSalle pres du canal de lÆAqueduc, Montreal, QC, CA, H8P 1Z8;13/01/2021;20/03/2024;-73.62960702;45.417477120000000;8408.550157560000000
+10162;Jardin communautaire les petites-pousses;Lachine;321, rue des erables, Montreal, QC, CA;18/01/2021;29/06/2022;-73.65329958;45.443952250000000;177.960467989000000
+10559;Jardin communautaire Saint-Eusebe;Ville-Marie;Rues Dufresne et Lariviere, Montreal, QC, CA;29/01/2021;22/11/2023;-73.556935;45.533228000000000;509.545161125000000
+59080;Jardin libre du parc de la Louisiane;Rosemont-La Petite-Patrie;Devant le parc Ó chien (rue de Bellechasse, entre la 31e Avenue et la 35e Avenue), Montreal, QC, CA, H1T3E3;06/11/2023;30/04/2024;-73.57096495;45.567727870000000;343.345418641000000
+68556;Serre Emily-De Witt;Ville-Marie;2215, rue Dufresne, Montreal, QC, CA, H2K1L8;07/05/2024;07/05/2024;-73.557092;45.532998000000000;667.608293587000000

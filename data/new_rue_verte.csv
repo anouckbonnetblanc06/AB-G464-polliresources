@@ -1,0 +1,383 @@
+_id,id_ruelle,arrondissement,limite_1,limite_2,longueur_m,largeur_m,type_surface,amenagement_vert,condition_surface,condition_drainage,cote_globale,commentaires
+25,104005487,Verdun,rue Gordon,rue Galt,44,4.2,Asphalte,1.0,Très bon,Très bon,0.5,"Identifiée comme ruelle verte, sans aménagement vert"
+91,104006036,Villeray - St-Michel - Parc-Extension,rue De La Roche,rue De Normanville,38,4.4,Béton,1.0,Bon,Très bon,2.0,
+104,104005843,Villeray - St-Michel - Parc-Extension,rue Jean-Talon Est,rue De Castelnau Est,24,4.6,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+155,104006050,Villeray - St-Michel - Parc-Extension,rue De Normanville,rue De La Roche,39,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+167,104006059,Villeray - St-Michel - Parc-Extension,rue De Normanville,rue Chambord,42,4.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+179,104005874,Villeray - St-Michel - Parc-Extension,rue Molson,1re avenue,32,3.7,Béton,1.0,Très bon,Très bon,0.5,
+181,104006069,Villeray - St-Michel - Parc-Extension,rue De Normanville,rue Chambord,41,4.6,Asphalte,1.0,Très bon,Très bon,0.5,
+218,104006252,Villeray - St-Michel - Parc-Extension,rue Molière,avenue Casgrain,118,5.4,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte - Bollards au centre de la ruelle
+226,104006068,Villeray - St-Michel - Parc-Extension,rue Chambord,rue De Normanville,41,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+234,104006265,Villeray - St-Michel - Parc-Extension,avenue Beaumont,rue Jean-Talon Ouest,192,3.6,Béton,1.0,Très bon,Très bon,0.5,
+237,104006268,Villeray - St-Michel - Parc-Extension,rue De Castelnau Est,rue Jules-Verne,142,5.0,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+258,104003917,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,29,4.6,Béton,1.0,Très bon,Très bon,0.5,
+268,104003515,Rosemont - La Petite-Patrie,3e avenue,2e avenue,26,3.6,Asphalte,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+272,104003519,Rosemont - La Petite-Patrie,avenue Papineau,rue Marquette,17,5.7,Béton,1.0,Passable,Bon,3.0,
+326,104004130,Rosemont - La Petite-Patrie,16e avenue,15e avenue,38,4.3,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+327,104003722,Rosemont - La Petite-Patrie,13e avenue,12e avenue,25,4.5,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+340,104003521,Rosemont - La Petite-Patrie,6e avenue,5e avenue,26,3.8,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+348,104003529,Rosemont - La Petite-Patrie,2e avenue,1re avenue,26,3.7,Béton,1.0,Bon,Très bon,1.5,Bac à fleurs à l'entrée de la ruelle
+356,104003534,Rosemont - La Petite-Patrie,12e avenue,boulevard Saint-Michel,28,3.5,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+377,104003552,Rosemont - La Petite-Patrie,5e avenue,4e avenue,27,3.7,Béton,1.0,Très bon,Très bon,1.5,
+381,104004133,Rosemont - La Petite-Patrie,13e avenue,12e avenue,32,5.2,Béton,1.0,Très bon,Très bon,0.5,
+405,104003733,Rosemont - La Petite-Patrie,16e avenue,15e avenue,32,3.6,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+416,104003744,Rosemont - La Petite-Patrie,avenue Bourbonnière,avenue d'Orléans,28,4.2,Béton,1.0,Très bon,Très bon,0.5,
+435,104003758,Rosemont - La Petite-Patrie,rue Garnier,rue Fabre,27,4.3,Béton,1.0,Très bon,Très bon,0.5,
+453,104004495,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Bellechasse,238,3.8,Asphalte,1.0,Très bon,Bon,1.5,
+456,104004144,Rosemont - La Petite-Patrie,rue Chambord,rue De Lanaudière,38,4.4,Asphalte,1.0,Très bon,Très bon,2.0,
+488,104003963,Rosemont - La Petite-Patrie,17e avenue,16e avenue,35,4.0,Asphalte,1.0,Très bon,Très bon,1.5,Bac à fleurs à l'entrée de la ruelle
+496,104003770,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,26,4.6,Béton,1.0,Très bon,Très bon,0.5,
+501,104003973,Rosemont - La Petite-Patrie,18e avenue,17e avenue,32,4.5,Béton,1.0,Très bon,Très bon,0.5,
+503,104003975,Rosemont - La Petite-Patrie,rue De Normanville,rue Chambord,37,3.8,Asphalte,1.0,Très bon,Très bon,0.5,
+506,104004497,Rosemont - La Petite-Patrie,rue de Bellechasse,rue Beaubien Est,234,3.9,Asphalte,1.0,Passable,Très bon,3.0,Revêtement mixte asphalte et béton
+514,104004648,Sud-Ouest,rue Sainte-Madeleine,rue Bourgeoys,28,3.2,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs à l'intersection des ruelles
+516,104004341,Rosemont - La Petite-Patrie,rue Holt,boulevard Rosemont,109,3.9,Béton,1.0,Très bon,Très bon,1.5,
+520,104004345,Rosemont - La Petite-Patrie,rue de Bellechasse,boulevard Rosemont,101,4.3,Béton,1.0,Très bon,Très bon,0.5,
+526,104004152,Rosemont - La Petite-Patrie,rue Aylwin,rue Cuvillier,38,4.5,Asphalte,1.0,Passable,Bon,2.5,Bac à fleurs au centre de la ruelle
+564,104004650,Sud-Ouest,avenue Walker,avenue Marin,30,3.0,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Bollards et bacs à fleurs à l'intersection des ruelles
+577,104004503,Rosemont - La Petite-Patrie,-Rue saint Zotique,rue Beaubien Est,240,3.9,Asphalte,1.0,Très bon,Très bon,0.5,
+582,104004656,Sud-Ouest,rue Sainte-Madeleine,rue Bourgeoys,28,3.4,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs à l'intersection des ruelles
+583,104004657,Sud-Ouest,rue Denonville,rue De Villiers,28,3.3,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Revêtement mixte de terre et végétation
+588,104004350,Rosemont - La Petite-Patrie,rue Dandurand,rue Holt,123,3.6,Béton,1.0,Très bon,Très bon,0.5,
+590,104004352,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Holt,108,4.1,Béton,1.0,Très bon,Très bon,0.5,
+599,104004359,Rosemont - La Petite-Patrie,rue Dandurand,rue Holt,125,3.7,Béton,1.0,Très bon,Très bon,2.0,
+600,104004360,Rosemont - La Petite-Patrie,rue Holt,rue Dandurand,124,3.8,Béton,1.0,Bon,Très bon,2.0,Entrée de la ruelle bloquée par des aménagements de citoyens
+603,104004363,Rosemont - La Petite-Patrie,rue Dandurand,rue Holt,124,3.8,Béton,1.0,Très bon,Très bon,1.5,
+605,104004365,Rosemont - La Petite-Patrie,rue Dandurand,rue Holt,127,3.8,Béton,1.0,Très bon,Bon,2.0,
+607,104004367,Rosemont - La Petite-Patrie,rue Dandurand,rue des Carrières,118,4.2,Asphalte,1.0,Très bon,Très bon,0.5,
+610,104004187,Rosemont - La Petite-Patrie,rue Fabre,rue Marquette,30,5.8,Béton,1.0,Très bon,Très bon,0.5,
+651,104004515,Rosemont - La Petite-Patrie,rue Jean-Talon Est,rue Bélanger,230,4.4,Béton,1.0,Bon,Très bon,2.0,
+659,104004520,Rosemont - La Petite-Patrie,rue Bélanger,rue Saint-Zotique Est,240,4.3,Béton,1.0,Très bon,Très bon,0.5,
+662,104004377,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Holt,140,3.8,Béton,1.0,Très bon,Très bon,0.5,
+670,104004529,Rosemont - La Petite-Patrie,boulevard Saint-Joseph Est,avenue Laurier Est,211,4.9,Béton,1.0,Très bon,Passable,2.5,Obstruction prononcée d'un puisard
+721,104004530,Rosemont - La Petite-Patrie,-Rue saint Zotique,rue Bélanger,239,4.4,Asphalte,1.0,Très bon,Très bon,1.5,Dégradation intérieure de la structure circulaire d'un puisard
+722,104004531,Rosemont - La Petite-Patrie,-Rue saint Zotique,rue Beaubien Est,264,4.0,Asphalte,1.0,Très bon,Très bon,0.5,
+796,104005630,Verdun,rue de Verdun,rue Wellington,251,4.2,Béton,1.0,Bon,Passable,2.5,Grille très endommagée - identification ruelle verte introuvable - aménagements verts de citoyens
+812,104005092,Sud-Ouest,rue Beaulieu,rue Jacques-Hertel,76,5.2,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte - Tranchés végétalisées au centre de la chaussée
+813,104005093,Sud-Ouest,rue Sainte-Émilie,rue Saint-Ambroise,88,4.5,Béton,1.0,Très bon,Très bon,0.5,Bacs à fleurs et bollards au milieu de la ruelle
+910,104000959,Mercier - Hochelaga-Maisonneuve,avenue Aird,rue Sicard,28,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+1006,104000452,Côte-Des-Neiges - Notre-Dame-de-Grâce,boulevard De Maisonneuve Ouest,rue Sherbrooke Ouest,221,3.7,Béton,1.0,Très bon,Très bon,2.0,Ruelle identifiée verte - pourtour du puisard perforé près de l'accès rue De Maisonneuve
+1091,104001326,Mercier - Hochelaga-Maisonneuve,avenue Jeanne-d'Arc,boulevard Pie-IX,34,4.6,Asphalte,1.0,Bon,Très bon,2.0,
+1124,104001166,Mercier - Hochelaga-Maisonneuve,rue De Jumonville,rue Turenne,32,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1130,104001172,Mercier - Hochelaga-Maisonneuve,rue Viau,rue de Ville-Marie,32,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1222,104000469,Côte-Des-Neiges - Notre-Dame-de-Grâce,boulevard De Maisonneuve Ouest,rue Sherbrooke Ouest,242,4.2,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+1234,104000288,Côte-Des-Neiges - Notre-Dame-de-Grâce,avenue de Melrose,avenue Regent,29,3.7,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+1236,104000479,Côte-Des-Neiges - Notre-Dame-de-Grâce,avenue Prud'homme,avenue Prud'homme,269,5.6,Asphalte,1.0,Bon,Très bon,1.5,Ruelle identifiée verte
+1237,104000480,Côte-Des-Neiges - Notre-Dame-de-Grâce,avenue Notre-Dame-De-Grâce,chemin de la Côte-Saint-Antoine,179,8.7,Pavé,1.0,Très bon,Très bon,0.5,
+1269,104001509,Mercier - Hochelaga-Maisonneuve,avenue Bennett,avenue Aird,37,4.6,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+1273,104001313,Mercier - Hochelaga-Maisonneuve,boulevard Pierre-Bernard,rue French,34,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1285,104001333,Mercier - Hochelaga-Maisonneuve,rue French,boulevard Pierre-Bernard,34,4.6,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (végétation) - Ruelle identifiée verte
+1340,104001190,Mercier - Hochelaga-Maisonneuve,rue Saint-Donat,boulevard Lapointe,36,4.0,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte sans aménagements verts
+1345,104001377,Mercier - Hochelaga-Maisonneuve,rue Saint-Émile,boulevard Lapointe,35,4.6,Béton,1.0,Très bon,Très bon,0.5,
+1544,104001382,Mercier - Hochelaga-Maisonneuve,avenue William-David,avenue Bennett,35,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bloc de béton à l'accès avenue William-David
+1554,104001388,Mercier - Hochelaga-Maisonneuve,boulevard Lapointe,rue Saint-Émile,35,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1616,104001248,Mercier - Hochelaga-Maisonneuve,avenue William-David,avenue Bennett,33,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1658,104001904,Mercier - Hochelaga-Maisonneuve,rue Saint-Victor,rue Notre-Dame Est,39,6.5,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Ruelle sans revêtement (gravier)
+1707,104001758,Mercier - Hochelaga-Maisonneuve,avenue Gonthier,avenue Hector,43,4.5,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Ruelle sans revêtement (gravier)
+1782,104001416,Mercier - Hochelaga-Maisonneuve,rue Sicard,rue Leclaire,35,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1988,104001628,Mercier - Hochelaga-Maisonneuve,boulevard Pierre-Bernard,rue French,39,4.6,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (gravier et végétation) - Ruelle identifiée verte
+1989,104001629,Mercier - Hochelaga-Maisonneuve,boulevard Pierre-Bernard,rue French,39,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+1996,104001435,Mercier - Hochelaga-Maisonneuve,avenue Bennett,avenue Aird,35,4.6,Asphalte,1.0,Très bon,Très bon,1.5,
+2007,104001444,Mercier - Hochelaga-Maisonneuve,rue De Contrecoeur,avenue Bilaudeau,44,3.7,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (gravier) - Ruelle identifiée verte
+2081,104002335,Montreal-Nord,boulevard Saint-Michel,avenue Audoin,31,7.6,Asphalte,1.0,Bon,Très bon,2.5,Ruelle identifiée verte - cul-de-sac
+2098,104002161,Mercier - Hochelaga-Maisonneuve,rue Hochelaga,avenue Souligny,132,4.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Mobilier urbain
+2101,104002358,Montreal-Nord,rue de Mont-Joli,rue Fleury Est,170,4.7,,1.0,,,,"Ruelle sans revêtement (végétation, terre et gravier)"
+2132,104002186,Mercier - Hochelaga-Maisonneuve,rue Aubry,rue Taillon,120,5.8,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+2145,104002196,Mercier - Hochelaga-Maisonneuve,rue La Fontaine,rue Adam,146,4.9,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+2253,104001482,Mercier - Hochelaga-Maisonneuve,rue Sicard,rue Leclaire,35,4.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2275,104002342,Montreal-Nord,avenue Gariépy,avenue des Récollets,65,3.8,,1.0,,,,Ruelle identifiée verte - ruelle sans revêtement (gravier et pavé)
+2372,104002026,Mercier - Hochelaga-Maisonneuve,rue La Fontaine,rue Ontario Est,79,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+2380,104002228,Mercier - Hochelaga-Maisonneuve,rue Adam,rue Ontario Est,137,5.9,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2406,104002051,Mercier - Hochelaga-Maisonneuve,rue Bossuet,rue Louis-Veuillot,68,6.1,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2492,104002566,Plateau - Mont-Royal,rue Drolet,avenue Henri-Julien,27,2.9,Béton,1.0,Bon,Très bon,1.5,
+2503,104002789,Plateau - Mont-Royal,rue Saint-Urbain,rue Clark,34,3.7,Béton,1.0,Très bon,Très bon,0.5,
+2513,104002590,Plateau - Mont-Royal,rue de Bordeaux,rue Dorion,24,3.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2514,104002591,Plateau - Mont-Royal,rue Cartier,rue Chabot,25,3.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2525,104002597,Plateau - Mont-Royal,rue Chabot,rue Cartier,25,3.5,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+2526,104002598,Plateau - Mont-Royal,rue Chambord,rue De Brébeuf,23,3.9,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (gravier)
+2527,104002599,Plateau - Mont-Royal,rue Messier,rue Parthenais,26,3.4,Béton,1.0,Très bon,Très bon,2.0,Présence d'une tranchée creusée dans la chaussée au milieu
+2531,104002603,Plateau - Mont-Royal,rue Chabot,rue de Bordeaux,29,3.2,Asphalte,1.0,Passable,Bon,2.5,Revêtement mixte asphalte et béton - ruelle identifiée verte
+2532,104002604,Plateau - Mont-Royal,rue Chabot,rue Cartier,25,3.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2533,104002605,Plateau - Mont-Royal,rue Chabot,rue Cartier,24,3.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2579,104002237,Mercier - Hochelaga-Maisonneuve,rue Ontario Est,rue de Rouen,192,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Tranchés végétalisées au centre de la chaussée
+2598,104002251,Mercier - Hochelaga-Maisonneuve,avenue Pierre-De Coubertin,rue Hochelaga,149,6.4,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+2608,104002255,Mercier - Hochelaga-Maisonneuve,rue de Rouen,rue Hochelaga,195,4.9,Béton,1.0,Très bon,Très bon,0.5,
+2638,104001878,Mercier - Hochelaga-Maisonneuve,rue Adam,rue Sainte-Catherine Est,51,4.6,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+2673,104002969,Plateau - Mont-Royal,rue Saint-Urbain,avenue de l'Esplanade,39,4.9,Asphalte,1.0,Bon,Très bon,1.5,Revêtement mixte asphalte et gravier
+2719,104002809,Plateau - Mont-Royal,avenue Casgrain,rue Saint-Dominique,27,4.9,Asphalte,1.0,Très bon,Très bon,0.5,
+2728,104002608,Plateau - Mont-Royal,avenue Papineau,rue Cartier,25,3.7,Béton,1.0,Bon,Très bon,2.0,
+2744,104002622,Plateau - Mont-Royal,rue D'Iberville,rue Chapleau,28,3.4,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2753,104002628,Plateau - Mont-Royal,rue Resther,rue Saint-Hubert,23,4.1,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+2773,104002643,Plateau - Mont-Royal,rue Dorion,rue Cartier,26,3.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2791,104002653,Plateau - Mont-Royal,avenue des Érables,avenue De Lorimier,28,3.6,Béton,1.0,Bon,Très bon,1.5,Ruelle identifiée verte
+2800,104002458,Outremont,avenue de Vimy,avenue Pratt,42,4.8,Asphalte,1.0,Très bon,Très bon,0.5,
+2805,104002259,Mercier - Hochelaga-Maisonneuve,rue Tellier,rue Notre-Dame Est,162,5.9,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+2811,104002265,Mercier - Hochelaga-Maisonneuve,boulevard Langelier,avenue de Repentigny,167,6.1,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte - Bac à fleurs
+2836,104002284,Mercier - Hochelaga-Maisonneuve,avenue Pierre-De Coubertin,rue Hochelaga,191,6.1,Asphalte,1.0,Très bon,Très bon,0.5,
+2842,104002087,Mercier - Hochelaga-Maisonneuve,avenue de Repentigny,boulevard Langelier,243,1.8,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Bacs à fleurs au centre
+2889,104003177,Plateau - Mont-Royal,rue Gauthier,rue Sherbrooke Est,205,3.2,Asphalte,1.0,Passable,Très bon,3.0,Revêtement mixte asphalte et gravier
+2918,104003019,Plateau - Mont-Royal,avenue de l'Hôtel-de-Ville,rue Napoléon,79,2.8,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2926,104003210,Plateau - Mont-Royal,rue Masson,avenue Laurier Est,230,3.3,Béton,1.0,Bon,Bon,2.5,
+2943,104002837,Plateau - Mont-Royal,rue de Mentana,rue Boyer,30,4.6,,1.0,,Très bon,0.5,Ruelle identifiée verte - ruelle sans revêtement (gravier)
+2947,104003040,Plateau - Mont-Royal,rue De La Roche,avenue Christophe-Colomb,43,5.5,Asphalte,1.0,Passable,Bon,3.5,Ruelle identifiée verte
+2958,104002848,Plateau - Mont-Royal,rue Marquette,rue Fabre,37,3.8,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+2962,104002853,Plateau - Mont-Royal,rue De La Roche,rue De Brébeuf,28,5.1,Asphalte,1.0,Bon,Bon,2.5,Ruelle identifiée verte - bac à fleurs accès rue De Brébeuf
+2968,104002650,Plateau - Mont-Royal,rue Dorion,rue de Bordeaux,26,3.8,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte aménagée - ruelle sans revêtement (gravier)
+2982,104002656,Plateau - Mont-Royal,rue Chabot,rue Cartier,25,4.1,Pavé,1.0,Très bon,Très bon,2.0,"Ruelle identifiée verte - revêtement mixte pavé, béton et asphalte"
+3005,104002675,Plateau - Mont-Royal,rue Dorion,rue de Bordeaux,26,4.0,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte aménagée - ruelle sans revêtement (gravier)
+3020,104002482,Outremont,avenue Querbes,avenue de l'Épée,57,5.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3066,104002312,Montreal-Nord,avenue Hénault,boulevard Sainte-Gertrude,33,3.7,,1.0,,,,Ruelle identifiée verte - ruelle sans revêtement (gravier)
+3067,104002313,Montreal-Nord,boulevard Saint-Michel,avenue Audoin,28,4.6,Asphalte,1.0,Passable,Très bon,2.5,Ruelle identifiée verte - revêtement recouvert temporairement de terre dû aux constructions à proximité
+3068,104002314,Montreal-Nord,rue de Mont-Joli,rue Fleury Est,27,4.8,Asphalte,1.0,Très bon,Très bon,0.5,Bacs à fleurs près de l'accès rue Fleury
+3084,104003183,Plateau - Mont-Royal,rue Gauthier,rue Sherbrooke Est,164,4.0,Asphalte,1.0,Bon,Très bon,2.0,
+3087,104003186,Plateau - Mont-Royal,avenue Laurier Est,rue Masson,240,2.8,Béton,1.0,Passable,Très bon,2.0,
+3096,104003191,Plateau - Mont-Royal,avenue Duluth Est,rue Rachel Est,198,3.5,Béton,1.0,Bon,Bon,2.5,Ruelle identifiée verte
+3112,104000181,Ahuntsic - Cartierville,boulevard Gouin Est,boulevard Henri-Bourassa Est,94,4.5,Asphalte,1.0,Bon,Très bon,2.0,"Revêtement mixte asphalte, terre et végétation"
+3178,104002876,Plateau - Mont-Royal,avenue des Érables,avenue De Lorimier,36,4.2,Asphalte,1.0,Très bon,Très bon,2.0,Ruelle identifiée verte - revêtement mixte asphalte et gravier
+3179,104002877,Plateau - Mont-Royal,rue Saint-Hubert,rue Saint-Christophe,43,3.5,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+3191,104002884,Plateau - Mont-Royal,rue Boyer,avenue Christophe-Colomb,34,4.5,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3197,104002890,Plateau - Mont-Royal,rue de Mentana,rue Saint-André,30,5.2,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (gravier)
+3199,104002684,Plateau - Mont-Royal,rue De Lanaudière,rue Chambord,24,4.5,Asphalte,1.0,Passable,Très bon,3.0,Ruelle identifiée verte
+3214,104002697,Plateau - Mont-Royal,rue Resther,rue Saint-Hubert,23,4.8,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - ruelle sans revêtement (gravier)
+3219,104002702,Plateau - Mont-Royal,avenue des Érables,rue Parthenais,26,4.2,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3314,104000192,Ahuntsic - Cartierville,rue de Port-Royal Est,avenue Hamel,156,3.2,Asphalte,1.0,Très bon,Très bon,0.5,Revêtement mixte asphalte et végétation
+3324,104000198,Ahuntsic - Cartierville,rue Sauvé Est,rue de Port-Royal Est,129,4.5,Béton,1.0,Très bon,Très bon,0.5,"Revêtement mixte béton, végétation et terre"
+3349,104000038,Ahuntsic - Cartierville,rue Saint-Urbain,rue Clark,27,4.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Revêtement mixte asphalte et pavé
+3359,104000043,Ahuntsic - Cartierville,rue de Reims,rue Saint-Urbain,28,4.4,Asphalte,1.0,Très bon,Très bon,0.5,
+3373,104003089,Plateau - Mont-Royal,rue Prince-Arthur Est,rue Sherbrooke Est,82,4.0,Béton,1.0,Bon,Très bon,0.5,Ruelle identifiée verte
+3378,104002893,Plateau - Mont-Royal,rue Boyer,rue de Mentana,31,5.1,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (gravier)
+3382,104003094,Plateau - Mont-Royal,avenue des Pins Est,rue du Square-Saint-Louis,110,3.2,Asphalte,1.0,Passable,Bon,3.0,"Ruelle identifiée verte avec aménagement - revêtement mixte asphalte, béton et terre"
+3398,104003106,Plateau - Mont-Royal,boulevard Saint-Joseph Est,avenue Laurier Est,61,6.3,Béton,1.0,Bon,Très bon,2.0,
+3399,104003107,Plateau - Mont-Royal,rue Berri,rue Rivard,74,5.3,Béton,1.0,Bon,Bon,2.0,Bacs à fleurs accès rue Rivard
+3412,104002920,Plateau - Mont-Royal,rue De Brébeuf,rue De La Roche,29,5.8,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3417,104002717,Plateau - Mont-Royal,avenue De Lorimier,avenue des Érables,29,4.0,Asphalte,1.0,Passable,Bon,3.0,Ruelle identifiée verte
+3421,104002923,Plateau - Mont-Royal,rue De Brébeuf,rue De La Roche,28,6.0,Asphalte,1.0,Bon,Très bon,1.5,
+3429,104002721,Plateau - Mont-Royal,rue de Bordeaux,rue Chabot,28,4.0,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3445,104002528,Outremont,avenue Lajoie,avenue Van Horne,174,5.8,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3446,104002734,Plateau - Mont-Royal,rue Chambord,rue De Lanaudière,23,5.0,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - revêtement mixte asphalte et terre
+3481,104000332,Côte-Des-Neiges - Notre-Dame-de-Grâce,avenue Regent,avenue de Melrose,39,3.7,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+3500,104000546,Lachine,17e avenue,16e avenue,37,4.6,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+3542,104000222,Ahuntsic - Cartierville,rue Prieur Est,rue Fleury Est,176,4.4,,1.0,Très bon,Très bon,0.5,Ruelle sans revêtement (terre et gravier)
+3602,104003128,Plateau - Mont-Royal,avenue Villeneuve,boulevard Saint-Joseph Ouest,77,5.6,Asphalte,1.0,Bon,Très bon,2.0,
+3612,104003131,Plateau - Mont-Royal,boulevard Saint-Joseph Est,avenue Laurier Est,79,5.6,Asphalte,1.0,Bon,Très bon,1.5,
+3638,104002951,Plateau - Mont-Royal,rue Garnier,rue De Lanaudière,32,5.8,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+3729,104000587,Lachine,rue Provost,rue Henri-Dunant,55,7.6,Pavé,1.0,Très bon,Très bon,0.5,Passage piétonnier identifié et aménagé
+3798,104003139,Plateau - Mont-Royal,rue Rachel Est,rue Gauthier,119,3.9,Asphalte,1.0,Bon,Très bon,1.5,
+3840,104000909,Mercier - Hochelaga-Maisonneuve,rue de Ville-Marie,rue Viau,32,3.9,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bloc de béton à l'accès rue Ville-Marie
+3841,104000910,Mercier - Hochelaga-Maisonneuve,avenue Aird,rue Sicard,28,4.5,Asphalte,1.0,Très bon,Très bon,0.5,
+4029,104000922,Mercier - Hochelaga-Maisonneuve,rue Vimont,rue de Ville-Marie,34,3.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs à l'accès rue Vimont
+4058,104006419,Villeray - St-Michel - Parc-Extension,rue Guizot Est,rue Jarry Est,245,4.4,Asphalte,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+4059,104006420,Villeray - St-Michel - Parc-Extension,rue Gounod,rue Jarry Est,239,4.6,Asphalte,1.0,Très bon,Très bon,0.5,
+4068,104006461,Villeray - St-Michel - Parc-Extension,rue Champdoré,rue de Louvain Est,252,6.1,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs centre de la ruelle
+4069,104006462,Villeray - St-Michel - Parc-Extension,rue Garnier,rue Everett,318,5.1,Béton,1.0,Très bon,Bon,1.5,
+4082,104003782,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,27,4.4,Béton,1.0,Très bon,Très bon,0.5,
+4086,104003784,Rosemont - La Petite-Patrie,25e avenue,26e avenue,28,4.3,Aucun,1.0,Très bon,Très bon,0.5,
+4094,104003792,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,27,4.5,Béton,1.0,Très bon,Très bon,1.5,
+4096,104003794,Rosemont - La Petite-Patrie,rue Marquette,rue Fabre,30,4.0,Béton,1.0,Bon,Bon,2.5,
+4098,104003591,Rosemont - La Petite-Patrie,2e avenue,3e avenue,26,3.9,Béton,1.0,Très bon,Très bon,0.5,
+4102,104003595,Rosemont - La Petite-Patrie,rue Louis-Hémon,rue des Écores,27,3.8,Béton,1.0,Très bon,Très bon,1.5,
+4125,104003406,Rosemont - La Petite-Patrie,6e avenue,5e avenue,27,3.1,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4128,104003409,Rosemont - La Petite-Patrie,rue Cartier,rue Chabot,25,3.4,Asphalte,1.0,Bon,Très bon,1.5,
+4130,104003411,Rosemont - La Petite-Patrie,3e avenue,2e avenue,26,3.2,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4132,104003413,Rosemont - La Petite-Patrie,7e avenue,6e avenue,26,3.2,Béton,1.0,Très bon,Très bon,0.5,
+4159,104003433,Rosemont - La Petite-Patrie,avenue Mozart Ouest,avenue Alexandra,27,3.3,Béton,1.0,Très bon,Très bon,0.5,
+4166,104003251,Plateau - Mont-Royal,rue Généreux,rue Gilford,244,4.0,Béton,1.0,Très bon,Très bon,2.0,Ruelle identifiée verte
+4174,104003255,Plateau - Mont-Royal,avenue Van Horne,rue Bernard Ouest,253,4.0,Béton,1.0,Passable,Très bon,3.0,
+4198,104006212,Villeray - St-Michel - Parc-Extension,rue Everett,rue L.-O.-David,144,3.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+4210,104006221,Villeray - St-Michel - Parc-Extension,rue Guizot Est,rue de Liège Est,119,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+4211,104006222,Villeray - St-Michel - Parc-Extension,rue Guizot Est,rue de Liège Est,120,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+4213,104006224,Villeray - St-Michel - Parc-Extension,rue Guizot Est,rue de Liège Est,122,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+4216,104006227,Villeray - St-Michel - Parc-Extension,rue de Liège Est,rue Guizot Est,123,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+4239,104006570,Ville-Marie,rue Dufresne,rue Fullum,35,3.4,Pavé,1.0,Très bon,Très bon,0.5,Revêtement mixte pavé et végétation
+4250,104006625,Ville-Marie,rue Hogan,rue Bercy,29,4.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+4274,104003990,Rosemont - La Petite-Patrie,rue Aylwin,rue Cuvillier,33,4.4,Béton,1.0,Très bon,Très bon,0.5,
+4279,104003795,Rosemont - La Petite-Patrie,avenue Jeanne-d'Arc,avenue Charlemagne,29,4.2,Béton,1.0,Très bon,Très bon,0.5,
+4288,104004002,Rosemont - La Petite-Patrie,avenue Louis-Hébert,rue des Écores,35,4.1,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4314,104003817,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,28,4.4,Béton,1.0,Très bon,Très bon,0.5,
+4317,104003615,Rosemont - La Petite-Patrie,7e avenue,6e avenue,26,3.9,Asphalte,1.0,Très bon,Très bon,0.5,
+4322,104003620,Rosemont - La Petite-Patrie,1re avenue,2e avenue,27,3.8,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4328,104003825,Rosemont - La Petite-Patrie,rue Chapleau,rue D'Iberville,26,4.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte sans aménagements verts
+4335,104003626,Rosemont - La Petite-Patrie,7e avenue,6e avenue,27,3.9,Béton,1.0,Très bon,Très bon,0.5,
+4342,104003633,Rosemont - La Petite-Patrie,rue de Bordeaux,rue Chabot,23,4.6,Béton,1.0,Bon,Très bon,2.0,Bac à fleurs à l'entrée de la ruelle
+4344,104003435,Rosemont - La Petite-Patrie,rue Chabot,rue Cartier,24,3.6,Asphalte,1.0,Bon,Bon,2.5,
+4349,104003440,Rosemont - La Petite-Patrie,5e ave,4e avenue,26,3.3,Asphalte,1.0,Très bon,Très bon,1.5,Revêtement mixte asphalte et béton
+4352,104003640,Rosemont - La Petite-Patrie,3e avenue,4e avenue,27,3.9,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4366,104003452,Rosemont - La Petite-Patrie,4e avenue,3e avenue,27,3.3,Béton,1.0,Très bon,Très bon,1.5,
+4368,104003651,Rosemont - La Petite-Patrie,4e avenue,3e avenue,26,4.1,Béton,1.0,Très bon,Très bon,0.5,
+4373,104003456,Rosemont - La Petite-Patrie,3e ave,2e ave,24,3.7,Béton,1.0,Bon,Très bon,2.0,Revêtement mixte asphalte et béton
+4420,104006909,Ville-Marie,rue Lusignan,rue Lusignan,167,5.3,Pavé,1.0,Très bon,Très bon,1.5,"Revêtement mixte pavé, béton et asphalte "
+4421,104006910,Ville-Marie,rue de Rouen,rue Ontario Est,216,4.2,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+4511,104003832,Rosemont - La Petite-Patrie,avenue Jeanne-d'Arc,avenue Charlemagne,29,4.3,Béton,1.0,Très bon,Très bon,0.5,
+4521,104003636,Rosemont - La Petite-Patrie,10e avenue,-9e avenue,27,3.9,Béton,1.0,Bon,Très bon,2.0,Bac à fleurs à l'entrée de la ruelle
+4523,104003837,Rosemont - La Petite-Patrie,avenue De Gaspé,rue Alma,26,4.8,Asphalte,1.0,Très bon,Très bon,0.5,
+4525,104003839,Rosemont - La Petite-Patrie,boulevard Pie-IX,avenue Jeanne-d'Arc,27,4.7,Béton,1.0,Très bon,Très bon,1.5,
+4526,104003840,Rosemont - La Petite-Patrie,rue Garnier,rue Fabre,29,4.2,Béton,1.0,Très bon,Très bon,0.5,
+4535,104003647,Rosemont - La Petite-Patrie,rue des Écores,rue Louis-Hémon,28,3.7,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4545,104003652,Rosemont - La Petite-Patrie,6e avenue,5e avenue,26,4.1,Béton,1.0,Très bon,Très bon,0.5,
+4548,104003655,Rosemont - La Petite-Patrie,7e avenue,6e avenu,27,4.0,Asphalte,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4563,104003666,Rosemont - La Petite-Patrie,avenue Mozart Ouest,avenue Alexandra,28,3.9,Béton,1.0,Très bon,Très bon,0.5,
+4568,104003671,Rosemont - La Petite-Patrie,avenue d'Orléans,avenue Bourbonnière,26,4.1,Béton,1.0,Très bon,Très bon,1.5,
+4571,104003471,Rosemont - La Petite-Patrie,4e avenue,3e ave,27,3.4,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+4609,104003501,Rosemont - La Petite-Patrie,4e ave,3e ave,26,3.6,Béton,1.0,Très bon,Très bon,1.5,
+4627,104004382,Rosemont - La Petite-Patrie,avenue Alexandra,rue Jean-Talon Ouest,154,3.5,aucun,1.0,Très bon,Très bon,0.5,"50 % ruelle verte en gravier, 50 % non pavée"
+4629,104004384,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Bellechasse,121,4.4,Béton,1.0,Très bon,Bon,1.5,
+4630,104004385,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Bellechasse,135,4.0,Béton,1.0,Bon,Très bon,2.0,Revêtement mixte asphalte et béton - obstruction visuelle du puisard (plaque d'acier)
+4642,104004395,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Holt,149,3.7,Béton,1.0,Très bon,Bon,1.5,
+4644,104004397,Rosemont - La Petite-Patrie,rue Holt,boulevard Rosemont,140,4.0,Béton,1.0,Bon,Très bon,1.5,
+4646,104004399,Rosemont - La Petite-Patrie,rue de Bellechasse,boulevard Rosemont,129,4.4,Béton,1.0,Très bon,Très bon,1.5,
+4674,104004040,Rosemont - La Petite-Patrie,rue Louis-Hémon,rue des Écores,35,4.3,Asphalte,1.0,Bon,Bon,2.0,
+4678,104004044,Rosemont - La Petite-Patrie,rue Louis-Hémon,rue des Écores,36,4.2,Béton,1.0,Très bon,Bon,1.5,
+4692,104004052,Rosemont - La Petite-Patrie,avenue Henri-Julien,rue Alma,45,3.4,Béton,1.0,Très bon,Très bon,0.5,
+4704,104004061,Rosemont - La Petite-Patrie,5e avenue,3e avenue,36,4.3,Béton,1.0,Très bon,Très bon,0.5,
+4746,104003891,Rosemont - La Petite-Patrie,40e avenue,39e avenue,32,4.1,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs au centre de la ruelle
+4799,104006431,Villeray - St-Michel - Parc-Extension,rue Everett,rue L.-O.-David,246,4.6,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+4817,104004403,Rosemont - La Petite-Patrie,rue Dandurand,boulevard Rosemont,150,3.9,Béton,1.0,Très bon,Très bon,0.5,
+4819,104004545,Rosemont - La Petite-Patrie,-Rue saint Zotique,rue Bélanger,276,3.9,Béton,1.0,Bon,Bon,2.5,
+4836,104004238,Rosemont - La Petite-Patrie,rue Augier,rue Bélanger,59,3.5,Béton,1.0,Très bon,Très bon,1.5,
+4839,104004414,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,154,4.1,Béton,1.0,Bon,Bon,2.0,
+4842,104004417,Rosemont - La Petite-Patrie,avenue Laurier Est,rue Masson,200,3.2,Béton,1.0,Très bon,Très bon,1.5,
+4852,104004250,Rosemont - La Petite-Patrie,6e avenu,5e avenue,51,4.3,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs au centre de la ruelle
+4855,104004424,Rosemont - La Petite-Patrie,rue Dandurand,rue Masson,185,3.6,Asphalte,1.0,Très bon,Très bon,0.5,Obstruction d'un puisard par du bois d'œuvre
+4856,104004425,Rosemont - La Petite-Patrie,avenue Laurier Est,rue Masson,117,5.6,Béton,1.0,Très bon,Très bon,0.5,
+4872,104004068,Rosemont - La Petite-Patrie,avenue Casgrain,rue Saint-Dominique,27,5.7,Asphalte,1.0,Très bon,Très bon,0.5,
+4875,104004071,Rosemont - La Petite-Patrie,rue Masson,boulevard Saint-Joseph Est,27,5.7,Béton,1.0,Très bon,Très bon,1.0,
+4884,104004075,Rosemont - La Petite-Patrie,avenue Laurier Est,rue Masson,37,4.2,Béton,1.0,Très bon,Très bon,0.5,
+4890,104004081,Rosemont - La Petite-Patrie,rue des Écores,rue Louis-Hémon,34,4.5,Béton,1.0,Bon,Mauvais,2.5,Ruelle identifiée verte sans aménagement vert
+4907,104004094,Rosemont - La Petite-Patrie,3e avenue,5e avenue,37,4.3,Béton,1.0,Très bon,Très bon,0.5,
+4917,104003902,Rosemont - La Petite-Patrie,boulevard Rosemont,rue des Carrières,31,4.3,Béton,1.0,Très bon,Très bon,1.5,
+4943,104006679,Ville-Marie,rue Frontenac,rue D'Iberville,28,5.9,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Bacs à fleurs à l'intersection des ruelles
+4971,104006627,Ville-Marie,rue Bercy,avenue Gascon,30,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Bacs à fleurs accès rue Bercy
+4996,104004723,Sud-Ouest,rue Jacques-Hertel,rue de Biencourt,27,4.1,Asphalte,1.0,Très bon,Très bon,0.5,Bollards et bac à fleurs accès rue Jacques-Hertel
+5027,104004422,Rosemont - La Petite-Patrie,rue Holt,boulevard Rosemont,162,4.0,Béton,1.0,Très bon,Bon,1.5,
+5030,104004563,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Saint-Zotique Est,263,4.3,Asphalte,1.0,Très bon,Très bon,0.5,
+5031,104004564,Rosemont - La Petite-Patrie,-Rue saint Zotique,rue Bélanger,269,4.2,Asphalte,1.0,Très bon,Bon,1.5,
+5035,104004427,Rosemont - La Petite-Patrie,boulevard Rosemont,rue des Carrières,153,4.3,Béton,1.0,Bon,Très bon,2.0,Dégradation intérieure de la structure circulaire d'un puisard
+5050,104004436,Rosemont - La Petite-Patrie,boulevard Rosemont,rue Dandurand,179,3.9,Béton,1.0,Très bon,Très bon,0.5,
+5054,104004272,Rosemont - La Petite-Patrie,avenue Charlemagne,avenue Jeanne-d'Arc,44,5.8,Béton,1.0,Très bon,Très bon,0.5,
+5056,104004274,Rosemont - La Petite-Patrie,rue De Chambly,rue Joliette,77,3.5,Briques,1.0,Très bon,Très bon,0.5,Revêtement de pavé uni
+5060,104004444,Rosemont - La Petite-Patrie,rue Masson,avenue Laurier Est,163,4.4,Béton,1.0,Très bon,Bon,1.5,
+5061,104004445,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,185,3.9,Béton,1.0,Bon,Très bon,2.5,
+5062,104004446,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Bellechasse,192,3.7,Béton,1.0,Passable,Bon,2.5,
+5072,104004286,Rosemont - La Petite-Patrie,36e avenue,rue Viau,65,4.4,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+5086,104004297,Rosemont - La Petite-Patrie,boulevard Saint-Joseph Est,avenue Laurier Est,80,3.8,Béton,1.0,Très bon,Très bon,0.5,
+5087,104004102,Rosemont - La Petite-Patrie,rue De Normanville,rue Chambord,38,4.2,Asphalte,1.0,Très bon,Très bon,0.5,
+5105,104004116,Rosemont - La Petite-Patrie,rue Bélanger,rue Augier,48,3.4,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+5111,104004122,Rosemont - La Petite-Patrie,rue Joliette,rue De Chambly,42,3.9,Béton,1.0,Très bon,Très bon,0.5,Bac à fleurs au centre de la ruelle
+5203,104004568,Rosemont - La Petite-Patrie,rue Beaubien Est,rue de Bellechasse,294,3.9,Asphalte,1.0,Très bon,Très bon,1.5,
+5207,104004761,Sud-Ouest,avenue De Montmagny,rue Jogues,31,3.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+5223,104004441,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,184,3.8,Béton,1.0,Très bon,Très bon,0.5,
+5224,104004442,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,184,3.9,Béton,1.0,Bon,Très bon,2.0,
+5225,104004443,Rosemont - La Petite-Patrie,rue Jean-Talon Ouest,avenue Mozart Ouest,199,3.6,Béton,1.0,Très bon,Très bon,0.5,
+5226,104004580,Rosemont - La Petite-Patrie,rue de Bellechasse,rue Beaubien Est,299,4.1,Asphalte,1.0,Très bon,Très bon,1.5,
+5233,104004450,Rosemont - La Petite-Patrie,rue Dandurand,boulevard Rosemont,159,4.6,Béton,1.0,Très bon,Passable,2.5,Obstruction majeure d'un puisard par de la terre
+5246,104004459,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,178,4.2,Béton,1.0,Bon,Passable,3.5,
+5252,104004300,Rosemont - La Petite-Patrie,8e avenue,9e avenue,59,5.3,Béton,1.0,Bon,Très bon,1.5,Ruelle identifiée verte sans aménagement vert
+5261,104004306,Rosemont - La Petite-Patrie,boulevard Saint-Joseph Est,avenue Laurier Est,80,4.1,Béton,1.0,Très bon,Très bon,1.5,Obstruction majeure d'un puisard
+5264,104004309,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Bellechasse,101,3.3,Béton,1.0,Bon,Bon,2.5,
+5278,104004320,Rosemont - La Petite-Patrie,rue Holt,boulevard Rosemont,93,3.9,Béton,1.0,Très bon,Bon,1.5,
+5352,104004770,Sud-Ouest,rue Jogues,avenue De Montmagny,30,3.9,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs et bollards accès rue Jogues
+5389,104004595,Rosemont - La Petite-Patrie,avenue du Mont-Royal Est,rue Rachel Est,321,4.2,Béton,1.0,bon,Mauvais,2.5,
+5391,104004597,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Saint-Zotique Est,234,5.9,Asphalte,1.0,Passable,Bon,3.0,
+5397,104004598,Rosemont - La Petite-Patrie,avenue Laurier Est,boulevard Saint-Joseph Est,226,6.2,Béton,1.0,Bon,Bon,2.5,
+5399,104004600,Rosemont - La Petite-Patrie,rue de Bellechasse,boulevard Rosemont,296,4.9,Asphalte,1.0,Très bon,Très bon,0.5,Obstruction de terre dans les puisards
+5402,104004603,Rosemont - La Petite-Patrie,rue Jean-Talon Est,rue Bélanger,274,5.3,Béton,1.0,Bon,Bon,2.5,
+5404,104004605,Rosemont - La Petite-Patrie,rue Beaubien Est,rue de Bellechasse,272,5.4,Asphalte,1.0,Très bon,Très bon,0.5,Présence de pavé au centre de la ruelle
+5405,104004469,Rosemont - La Petite-Patrie,rue Bélanger,-Rue saint Zotique,169,4.6,Béton,1.0,Très bon,Très bon,0.5,
+5406,104004470,Rosemont - La Petite-Patrie,avenue Laurier Est,rue Masson,200,3.9,Béton,1.0,Passable,Bon,3.5,Revêtement mixte asphalte et béton
+5416,104004476,Rosemont - La Petite-Patrie,rue Beaubien Est,rue Bellechasse,184,4.5,Béton,1.0,Très bon,Très bon,1.5,
+5424,104004325,Rosemont - La Petite-Patrie,rue Masson,rue Dandurand,94,4.0,Béton,1.0,Très bon,Très bon,0.5,
+5441,104006535,Ville-Marie,rue Logan,rue La Fontaine,28,3.8,Asphalte,1.0,Bon,Très bon,2.5,
+5442,104006536,Ville-Marie,rue Logan,rue La Fontaine,28,3.8,Asphalte,1.0,Très bon,Très bon,1.5,
+5454,104006437,Villeray - St-Michel - Parc-Extension,rue Jean-Talon Est,rue Bélanger,308,3.7,Béton,1.0,Bon,Bon,2.5,Ruelle identifiée verte
+5470,104005510,Verdun,rue Wellington,boulevard Gaétan-Laberge,77,2.6,Asphalte,1.0,Très bon,Très bon,1.5,
+5509,104004976,Sud-Ouest,rue Le Caron,rue De Champigny,41,4.3,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs et mobilier urbain à l'entrée rue Le Caron
+5514,104005162,Sud-Ouest,rue Sainte-Émilie,rue Notre-Dame Ouest,219,3.0,Béton,1.0,Bon,Très bon,2.0,Ruelle identifiée verte - Tranchés végétalisées au centre de la chaussée
+5535,104004798,Sud-Ouest,rue Denonville,rue De Villiers,27,4.5,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bacs à fleurs et bollards entrée rue De Viliers
+5538,104004996,Sud-Ouest,rue du Square-Sir-George-Étienne-Cartier,rue Beaudoin,37,5.0,Pavé,1.0,Très bon,Très bon,0.5,
+5545,104004805,Sud-Ouest,rue Hadley,rue Briand,28,4.4,Béton,1.0,Très bon,Très bon,1.5,Bacs à fleurs à l'intersection des ruelles
+5556,104004606,Rosemont - La Petite-Patrie,rue Saint-Zotique Est,rue Bélanger,304,4.9,Asphalte,1.0,Bon,Bon,2.0,
+5569,104004613,Rosemont - La Petite-Patrie,rue Bélanger,rue Saint-Zotique Est,302,5.6,Asphalte,1.0,Bon,Très bon,2.0,Fissuration et affaissement prononcé d'un puisard - dégradation de la structure circulaire à l'intérieur d'un puisard
+5570,104004614,Rosemont - La Petite-Patrie,rue Saint-Zotique Est,rue Bélanger,301,5.8,Béton,1.0,Passable,Bon,3.0,Revêtement mixte asphalte et béton
+5581,104004618,Rosemont - La Petite-Patrie,rue Saint-Zotique Ouest,rue Beaubien Ouest,306,6.2,Asphalte,1.0,Passable,Bon,3.5,
+5587,104004624,Sud-Ouest,rue Mullins,rue Wellington,16,3.0,Béton,1.0,Très bon,Très bon,0.5,
+5589,104004626,Sud-Ouest,rue Wellington,rue Mullins,14,3.6,Béton,1.0,Très bon,Très bon,0.5,
+5595,104004629,Sud-Ouest,rue Bourgeoys,rue Charon,13,4.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+5604,104004638,Sud-Ouest,avenue Brewster,avenue Greene,26,3.0,Asphalte,1.0,Très bon,Très bon,0.5,Bollards accès de l'avenue Greene
+5632,104006396,Villeray - St-Michel - Parc-Extension,Rue villeray,rue Faillon Est,215,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Revêtement mixte asphalte et béton
+5642,104006443,Villeray - St-Michel - Parc-Extension,rue Jean-Talon Est,6e avenue,261,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+5644,104006445,Villeray - St-Michel - Parc-Extension,rue Gounod,Rue villeray,246,4.9,Asphalte,1.0,Très bon,Passable,2.0,
+5645,104006446,Villeray - St-Michel - Parc-Extension,rue Gounod,Rue villeray,246,4.9,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+5648,104006641,Ville-Marie,avenue des Érables,avenue De Lorimier,34,4.3,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Revêtement mixte asphalte et végétation
+5651,104006644,Ville-Marie,rue D'Iberville,rue Frontenac,27,5.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Présence de mobilier urbain
+5653,104006646,Ville-Marie,rue Sherbrooke Est,rue Hochelaga,37,4.0,,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Ruelle sans revêtement (végétation)
+5740,104005014,Sud-Ouest,avenue De Montmagny,rue Jogues,34,5.9,Béton,1.0,Très bon,Très bon,1.5,Ruelle idenitfiée verte - Bacs à fleurs et bollards accès avenue De Montmagny
+5783,104004849,Sud-Ouest,rue Irène,avenue Laporte,28,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Bollards à l'entrée de la rue Irène
+5799,104006693,Ville-Marie,rue D'Iberville,rue Frontenac,28,6.1,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Bacs à fleurs à l'intersection des ruelles
+5830,104006798,Ville-Marie,rue Daunais,rue La Fontaine,60,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+5853,104005876,Villeray - St-Michel - Parc-Extension,1re avenue,rue Molson,32,3.7,Béton,1.0,Très bon,Très bon,0.5,
+5854,104005877,Villeray - St-Michel - Parc-Extension,rue Molson,1re avenue,32,3.7,Béton,1.0,Très bon,Très bon,0.5,
+5905,104005366,Verdun,4e avenue,5e avenue,31,4.5,Asphalte,1.0,Très bon,Très bon,1.5,"Identifiée comme ruelle verte, sans aménagement vert"
+5933,104005200,Sud-Ouest,rue Acorn,rue Saint-Rémi,189,4.5,Asphalte,1.0,Bon,Très bon,2.0,Revêtement mixte asphalte et béton
+5988,104006891,Ville-Marie,rue Hochelaga,rue de Rouen,151,4.3,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - Tranchés végétalisées
+5993,104006896,Ville-Marie,rue Dubuc,rue de Rouen,157,4.5,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte
+6008,104005880,Villeray - St-Michel - Parc-Extension,rue Gounod,rue Juillet,26,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6012,104005884,Villeray - St-Michel - Parc-Extension,avenue des Érables,avenue De Lorimier,25,4.9,Asphalte,1.0,Mauvais,Bon,4.0,
+6014,104005886,Villeray - St-Michel - Parc-Extension,avenue Louis-Hébert,rue des Écores,29,4.1,Béton,1.0,Très bon,Très bon,0.5,
+6024,104005896,Villeray - St-Michel - Parc-Extension,rue Saint-Gérard,rue Foucher,29,4.3,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6068,104005571,Verdun,rue Régina,rue Strathmore,131,3.8,Asphalte,1.0,Très bon,Très bon,0.5,"Identifiée comme ruelle verte, sans d'aménagement vert"
+6148,104006357,Villeray - St-Michel - Parc-Extension,rue Everett,rue L.-O.-David,247,3.7,Béton,1.0,Très bon,Très bon,0.5,
+6150,104006359,Villeray - St-Michel - Parc-Extension,rue De Castelnau Est,avenue Henri-Julien,191,4.8,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte - Revêtement mixte asphalte et béton
+6155,104006364,Villeray - St-Michel - Parc-Extension,rue Everett,rue L.-O.-David,249,3.7,Béton,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+6159,104006400,Villeray - St-Michel - Parc-Extension,rue De Castelnau Est,rue Faillon Est,230,4.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6161,104006402,Villeray - St-Michel - Parc-Extension,rue Leman,rue Mistral,167,6.1,Béton,1.0,Mauvais,Bon,4.0,Ruelle identifiée verte
+6162,104006447,Villeray - St-Michel - Parc-Extension,rue Guizot Est,rue Jarry Est,246,4.9,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6166,104006451,Villeray - St-Michel - Parc-Extension,rue Gounod,Rue villeray,246,5.3,Asphalte,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+6202,104006110,Villeray - St-Michel - Parc-Extension,rue Bélair,rue De Beaujeu,55,4.6,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6258,104005759,Villeray - St-Michel - Parc-Extension,51e rue,boulevard des Grandes-Prairies,27,3.7,Béton,1.0,Très bon,Très bon,0.5,
+6331,104006403,Villeray - St-Michel - Parc-Extension,rue Jarry Est,rue Gounod,239,4.3,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle Identifiée verte - Blocs de béton entrée rue Gounod
+6359,104006285,Villeray - St-Michel - Parc-Extension,rue Jarry Est,rue Gounod,239,3.1,Asphalte,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+6362,104006288,Villeray - St-Michel - Parc-Extension,rue Gounod,rue du Rosaire,176,4.3,Béton,1.0,Très bon,Passable,2.0,
+6365,104006291,Villeray - St-Michel - Parc-Extension,rue Leman,rue de Liège Est,167,4.6,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+6371,104006296,Villeray - St-Michel - Parc-Extension,Rue villeray,rue Faillon Est,158,4.9,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6372,104006297,Villeray - St-Michel - Parc-Extension,rue Gounod,Rue villeray,244,3.2,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6395,104006125,Villeray - St-Michel - Parc-Extension,rue Faillon Est,Rue villeray,60,4.9,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6399,104006129,Villeray - St-Michel - Parc-Extension,rue Mistral,rue Guizot Est,77,3.8,Asphalte,1.0,Bon,Très bon,2.0,Ruelle identifiée verte - Plaque d'acier couvrant un puisard
+6405,104005935,Villeray - St-Michel - Parc-Extension,rue Foucher,avenue De Chateaubriand,22,6.2,Béton,1.0,Très bon,Très bon,0.5,
+6408,104005938,Villeray - St-Michel - Parc-Extension,rue Molson,rue D'Iberville,37,3.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6474,104005789,Villeray - St-Michel - Parc-Extension,12e avenue,13e avenue,28,3.7,Béton,1.0,Très bon,Très bon,0.5,Bac à fleur à l'accès 12e avenue
+6493,104006707,Ville-Marie,rue Chapleau,rue D'Iberville,33,5.4,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte - revêtement mixte asphalte et béton
+6516,104006604,Ville-Marie,rue Montgomery,rue Wurtele,28,4.6,Asphalte,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+6574,104006316,Villeray - St-Michel - Parc-Extension,rue Jarry Est,rue Guizot Est,244,3.3,Béton,1.0,Bon,Très bon,1.5,Ruelle identifiée verte - Revêtement mixte asphalte et béton
+6586,104006323,Villeray - St-Michel - Parc-Extension,Rue villeray,rue Tillemont,172,4.8,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6589,104006326,Villeray - St-Michel - Parc-Extension,rue de Liège Est,boulevard Crémazie Est,179,4.7,Béton,1.0,Bon,Bon,2.5,Ruelle identifiée verte
+6593,104006141,Villeray - St-Michel - Parc-Extension,rue Faillon Est,rue Jules-Verne,69,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6595,104006143,Villeray - St-Michel - Parc-Extension,avenue Émile-Journault,rue Sainte-Lucie,91,3.5,Béton,1.0,Très bon,Très bon,0.5,
+6605,104006147,Villeray - St-Michel - Parc-Extension,rue Bélanger,rue Jean-Talon Est,92,3.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6608,104006150,Villeray - St-Michel - Parc-Extension,rue Jules-Verne,rue Faillon Est,64,5.4,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6619,104006158,Villeray - St-Michel - Parc-Extension,rue De Castelnau Est,rue Jean-Talon Est,81,4.6,Béton,1.0,Bon,Passable,2.5,Ruelle identifiée verte
+6622,104006161,Villeray - St-Michel - Parc-Extension,rue De Castelnau Est,rue Jean-Talon Est,77,5.1,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6652,104005791,Villeray - St-Michel - Parc-Extension,12e avenue,13e avenue,28,3.7,Béton,1.0,Très bon,Très bon,0.5,
+6658,104005797,Villeray - St-Michel - Parc-Extension,12e avenue,13e avenue,28,3.7,Béton,1.0,Très bon,Très bon,0.5,
+6677,104005628,Verdun,rue Wellington,rue de Verdun,258,4.0,Asphalte,1.0,Bon,Très bon,2.5,Identifiée comme ruelle verte - bac à fleurs au centre de la ruelle
+6693,104006903,Ville-Marie,rue de Rouen,rue Hochelaga,193,3.9,Asphalte,1.0,Bon,Bon,2.5,Ruelle identifiée verte
+6721,104003570,Rosemont - La Petite-Patrie,3e avenue,2e avenue,27,3.8,Asphalte,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+6722,104003571,Rosemont - La Petite-Patrie,8e avenue,7e avenue,27,3.7,Asphalte,1.0,Très bon,Très bon,0.5,Bac à fleurs à l'entrée de la ruelle
+6732,104003579,Rosemont - La Petite-Patrie,2e avenue,1e av,27,3.7,Béton,1.0,Bon,Très bon,2.0,
+6749,104006327,Villeray - St-Michel - Parc-Extension,rue Saint-Roch,avenue Ogilvy,253,3.3,Béton,1.0,Très bon,Très bon,0.5,
+6759,104003396,Rosemont - La Petite-Patrie,3e ave,2e av,21,3.8,Béton,1.0,Très bon,Très bon,2.0,
+6766,104006337,Villeray - St-Michel - Parc-Extension,rue Mistral,rue Leman,167,5.2,Asphalte,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+6785,104006166,Villeray - St-Michel - Parc-Extension,rue Jean-Talon Est,rue De Castelnau Est,83,4.9,Pavé uni,1.0,Très bon,Très bon,0.5,
+6800,104006177,Villeray - St-Michel - Parc-Extension,rue Dufour,rue Faillon Est,123,3.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6801,104006178,Villeray - St-Michel - Parc-Extension,rue Villeray,rue L.-O.-David,97,4.6,Béton,1.0,Bon,Bon,2.5,Ruelle identifiée verte
+6811,104006184,Villeray - St-Michel - Parc-Extension,rue Everett,rue L.-O.-David,128,3.7,Béton,1.0,Bon,Passable,2.0,Revêtement mixte asphalte et béton
+6816,104006189,Villeray - St-Michel - Parc-Extension,rue Everett,rue Jean-Talon Est,130,3.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6829,104006197,Villeray - St-Michel - Parc-Extension,rue Tillemont,Rue villeray,134,3.7,Béton,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6830,104006198,Villeray - St-Michel - Parc-Extension,avenue Casgrain,rue De Castelnau Est,87,5.7,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6857,104006906,Ville-Marie,rue Hochelaga,rue de Rouen,169,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6859,200400793,Verdun,3e avenue,4e avenue,26,4.9,Asphalte,1.0,Très bon,Très bon,0.5,"Identifiée comme ruelle verte, sans aménagement vert"
+6867,104006366,Villeray - St-Michel - Parc-Extension,rue Everett,rue Jean-Talon Est,131,7.0,Béton,1.0,Bon,Très bon,1.5,Ruelle identifiée verte
+6871,104006370,Villeray - St-Michel - Parc-Extension,rue Deville,rue D'Hérelle,263,3.5,Béton,1.0,Très bon,Très bon,0.5,Bacs à feur à l'entrée rue d'Hérelle
+6874,104006373,Villeray - St-Michel - Parc-Extension,rue Bélanger,rue Jean-Talon Est,260,3.7,Asphalte,1.0,Très bon,Bon,1.5,Ruelle identifiée verte
+6878,104006412,Villeray - St-Michel - Parc-Extension,boulevard Crémazie Est,rue de Liège Est,229,4.6,Asphalte,1.0,Très bon,Très bon,0.5,Ruelle identifiée verte
+6880,104006414,Villeray - St-Michel - Parc-Extension,Rue villeray,rue Faillon Est,216,4.9,Béton,1.0,Très bon,Très bon,1.5,Ruelle identifiée verte
+6888,104001498,Mercier - Hochelaga-Maisonneuve,boulevard Lapointe,rue Saint-Émile,36,4.6,Béton,1.0,Très bon,Très bon,0.5,Présence de mobilier urbain
