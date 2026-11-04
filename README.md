@@ -10,6 +10,6 @@ Test 1. I enter the name of the borough:.
 Expected: libraries name appear classified by resources,
 each labelled with its distance in metres.
 Test 2. I enter Montreal-Nord.
-Expected: No places with lgrains and tools appear.
+Expected: No places with grains and tools appear.
 Test 3. I enter a name that is not a Montreal borough.
 Expected: a message says no data available maybe you entered the name not correctly.
