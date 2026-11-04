@@ -55,7 +55,7 @@ header {
   background:#d7ccac; /*I changed this*/
   
 }
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .page { grid-template-columns: 1fr; }   /* one column on a phone */
 }
 h1, h2 { color: var(--accent); line-height: 1.2; }
@@ -75,7 +75,7 @@ a { color: var(--accent); }
   border: 2px solid #1F2D5A; /* adding a box around the map */
   box-sizing: border-box;
 }
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .page { grid-template-columns: 1fr; }   /* one column on a phone: story, then map */
   #map { height: 70vh; width: 100%; }
 }
