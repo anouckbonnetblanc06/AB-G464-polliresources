@@ -106,3 +106,18 @@ a { color: var(--accent); }
   width: 100%;
   padding: 8px;
 }
+.map-column {
+  min-width: 0;
+}
+
+.search-toolbox {
+  position: static;
+  width: 100%;
+  max-height: none;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100%;
+}
