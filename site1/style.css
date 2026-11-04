@@ -77,7 +77,7 @@ a { color: var(--accent); }
 }
 @media (max-width: 1200px) {
   .page { grid-template-columns: 1fr; }   /* one column on a phone: story, then map */
-  #map { height: 70vh; }
+  #map { height: 70vh; width: 100%; }
 }
 .legend { background: #fff; padding: 6px 10px; border-radius: 6px; line-height: 1.6; font-size: 14px; }
 .legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
