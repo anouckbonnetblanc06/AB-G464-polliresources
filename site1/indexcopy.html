@@ -16,9 +16,8 @@
       <p><strong>This map is for</strong> people who'd like to flourish their gardens while making them more suitable for pollinators.</p>
       <p><strong>What you can do here:</strong> Locate <strong>grainotheques</strong> where you can get pollinator-attractive plant's seeds and gradening tools for free. You don't own a garden ? No worries, this map will show you all the spots nearby where you can garden.</p>
       <p id="status">Loading...</p>
-
-      <section>
-        <p>I wanted to add popups that gives informations on what kind of species (plants and animals) we can find in the different boroughs of Montrel  </p>
+      
+      <p>I wanted to add popups that gives informations on what kind of species (plants and animals) we can find in the different boroughs of Montrel  </p>
         
       </section>
       <section>
@@ -31,7 +30,28 @@
 
       </section>
     </main>
-    <div id="map"></div>
+    <div id="map">
+      <section class="search-toolbox">
+        <h2>Search by arrondissement</h2>
+
+        <label for="arrondissement-search">Arrondissement</label>
+        <input
+          id="arrondissement-search"
+          type="text"
+          list="arrondissement-options"
+          placeholder="Type or select an arrondissement"
+          autocomplete="off"
+        >
+        <datalist id="arrondissement-options"></datalist>
+
+        <p id="arrondissement-status" aria-live="polite">
+          Loading arrondissement names...
+        </p>
+        <div id="arrondissement-results"></div>
+      </section>
+    </div>
+      
+    </div>
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
