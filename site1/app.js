@@ -148,20 +148,23 @@ function setupArrondissementSearch(features) {
 
     // Check whether the typed text matches a full arrondissement name.
     // Matching ignores capitalization and extra spaces.
-    const selectedArrondissement = arrondissements.find(function (name) {
-      return normalize(name) === query;
-    });
+// Find every arrondissement whose name contains what the user typed.
+const matchingArrondissements = arrondissements.filter(function (name) { // I changed this
+  return normalize(name).includes(query);
+});
 
-    // If it isn't an exact match, ask the user to choose a suggested name.
-    if (!selectedArrondissement) {
-      status.textContent = 'Choose or type an arrondissement name from the suggestions.';
-      return;
-    }
+// Show guidance if nothing matches the typed text.
+if (matchingArrondissements.length === 0) {
+  status.textContent = 'No matching arrondissement. Try a name from the suggestions.';
+  return;
+}
 
-    // Keep only the GeoJSON records for the selected arrondissement.
-    const matches = features.filter(function (feature) {
-      return normalize(feature.properties.arrondissement) === query;
-    });
+// Get records belonging to any matching arrondissement.
+const matches = features.filter(function (feature) {
+  return matchingArrondissements.includes(
+    String(feature.properties.arrondissement || '').trim()
+  );
+});
 
     // Show a message and stop if there are no matching records.
     if (matches.length === 0) {
@@ -218,7 +221,7 @@ function setupArrondissementSearch(features) {
   });
 }
 
-fetch('../data/polisources.geojson')
+fetch('../data/polisourcesUD.geojson')
   .then(function (response) {
     if (!response.ok) { throw new Error('HTTP ' + response.status + ' loading grainotheque_mtl.geojson'); }
     return response.json();
