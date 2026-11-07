@@ -94,10 +94,10 @@ a { color: var(--accent); }
   width: min(320px, calc(100% - 24px));
   max-height: calc(100% - 24px);
   overflow-y: auto;
-  padding: 12px;
+  padding: 12px; /*changes the box size*/
   border: 2px solid #1F2D5A;
   border-radius: 8px;
-  background: #fff;
+  background: #cec396;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -105,6 +105,7 @@ a { color: var(--accent); }
   box-sizing: border-box;
   width: 100%;
   padding: 8px;
+  background:#cec58a
 }
 .map-column {
   min-width: 0;
@@ -112,7 +113,7 @@ a { color: var(--accent); }
 
 .search-toolbox {
   position: static;
-  width: 50%;
+  width: 100%;
   max-height: none;
   margin-bottom: 10px;
   box-sizing: border-box;
