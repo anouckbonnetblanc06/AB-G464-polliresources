@@ -92,12 +92,12 @@ a { color: var(--accent); }
   z-index: 1000;
   box-sizing: border-box;
   width: min(320px, calc(100% - 24px));
-  max-height: calc(100% - 24px);
+  max-height: calc(100% -500px);
   overflow-y: auto;
   padding: 12px; /*changes the box size*/
   border: 2px solid #1F2D5A;
   border-radius: 8px;
-  background: #cec396;
+  background: #ebe9e3;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -105,7 +105,7 @@ a { color: var(--accent); }
   box-sizing: border-box;
   width: 100%;
   padding: 8px;
-  background:#cec58a
+  background:#dcdad1
 }
 .map-column {
   min-width: 0;
@@ -113,11 +113,52 @@ a { color: var(--accent); }
 
 .search-toolbox {
   position: static;
-  width: 100%;
-  max-height: none;
+  width: min(180px, 100%);
+  padding: 8px;
+  max-height: 200px;
   margin-bottom: 10px;
   box-sizing: border-box;
 }
+.search-toolbox input {
+  margin-top: 0;
+  font-size: 10px;
+}
+.search-toolbox h2 {
+  margin-top: 0;
+  font-size: 10px;
+}
+.search-toolbox label {
+  margin-top: 0;
+  font-size: 10px;
+}
+.search-toolbox p {
+  margin-top: 0;
+  font-size: 10px;
+}
+.map-with-sidebar { /*I changed this*/
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.legend-sidebar { 
+  display: grid;
+  gap: 0px;
+}
+
+@media (max-width: 800px) {
+  .map-with-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .legend-sidebar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+
 
 #map {
   width: 100%;
