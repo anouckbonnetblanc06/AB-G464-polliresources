@@ -32,9 +32,6 @@
     </main>
     <div class="map-column">
       <section class="search-toolbox">
-        <h2>Search by arrondissement</h2>
-
-        <label for="arrondissement-search">Arrondissement</label>
         <input
           id="arrondissement-search"
           type="text"
@@ -43,14 +40,21 @@
           autocomplete="off"
         >
         <datalist id="arrondissement-options"></datalist>
-
         <p id="arrondissement-status" aria-live="polite">
           Loading arrondissement names...
         </p>
         <div id="arrondissement-results"></div>
       </section>
+      <div class="map-with-sidebar">
+        <aside class="legend-sidebar" aria-label="Map legend">
+          <div id="street-legend" class="legend"></div>
+          <div id="resource-legend" class="legend"></div>
+         </aside>
+
+         <div id="map"></div>
+      </div>
   
-      <div id="map"></div>
+      
     </div>
       
     </div>
@@ -59,3 +63,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+
