@@ -68,16 +68,26 @@ Promise.all([
   }).addTo(map);
 
   // PART 4b: the legend. Select the lines below and press Ctrl+/ to switch them on.
-  const legend = L.control({ position: 'bottomright' });
-  legend.onAdd = function () {
-    const div = L.DomUtil.create('div', 'legend');
-    const rows = [[75, '75% or more'], [50, '50 to 74%'], [25, '25 to 49%'], [1, 'under 25%'], [0, 'none']];
-    div.innerHTML = '<strong>Green streets in a very good state </strong>' + rows.map(function (r) {
-      return '<i style="background:' + colourFor(r[0]) + '"></i>' + r[1];
-    }).join('<br>');
-    return div;
-  };
-  legend.addTo(map);
+  const streetLegend = document.getElementById('street-legend');
+  const title = document.createElement('strong');
+  title.textContent = 'Green streets in a very good state';
+  streetLegend.append(title);
+
+  const rows = [
+    [75, '75% or more'],
+    [50, '50 to 74%'],
+    [25, '25 to 49%'],
+    [1, 'under 25%'],
+    [0, 'none']
+  ];
+
+  rows.forEach(function ([threshold, label]) {
+    const row = document.createElement('div');
+    const swatch = document.createElement('i');
+    swatch.style.backgroundColor = colourFor(threshold);
+    row.append(swatch, document.createTextNode(label));
+    streetLegend.append(row);
+  });
 
   // PART 4c: the layer switcher. Write one line here (the handout has it).
   L.control.layers(
@@ -271,16 +281,18 @@ fetch('../data/polisourcesUD.geojson')
       },
     }).addTo(map);
 
-    // Layer C: a legend. 
-    const legend = L.control({ position: 'bottomleft' });
-    legend.onAdd = function () {
-      const div = L.DomUtil.create('div', 'legend');
-      div.innerHTML = Object.values(resourceTypes).map(function (item) { // I changed this
-        return '<span class="resource-symbol">' + item.symbol + '</span>' + item.label;
-      }).join('<br>');
-      return div;
-    };
-    legend.addTo(map);
+    // Resource-type legend 
+    const resourceLegend = document.getElementById('resource-legend');
+
+    Object.values(resourceTypes).forEach(function (item) {
+      const row = document.createElement('div');
+      const symbol = document.createElement('span');
+      symbol.className = 'resource-symbol';
+      symbol.textContent = item.symbol;
+      row.append(symbol, document.createTextNode(item.label));
+      resourceLegend.append(row);
+    });
+    
 
     document.getElementById('status').textContent =
       shown.features.length + ' of ' + data.features.length + ' grainotheques shown';
