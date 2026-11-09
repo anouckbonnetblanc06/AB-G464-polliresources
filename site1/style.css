@@ -160,7 +160,7 @@ a { color: var(--accent); }
   }
 
   .legend-sidebar[open] {
-    width: 100%;
+    width: 30%;
     max-width: none;
     left:0px; /*I changed this*/
   }
