@@ -116,22 +116,57 @@ function setupArrondissementSearch(features) {
 
   // Trim extra spaces and ignore upper/lowercase differences when comparing text.
   function normalize(value) {
-    return String(value || '').trim().toLowerCase();
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .toLocaleLowerCase('fr')
+    .replace(/[\s-]+/g, ' ');
   }
 
   // Get the arrondissement value from each record, remove blanks and duplicates,
   // then sort the names alphabetically for the suggestion list.
-  const arrondissements = [...new Set(
+  const arrondissements = [...new Map(
     features
       .map(function (feature) {
-        return feature.properties.arrondissement;
+        return String(feature.properties.arrondissement || '').trim();
       })
       .filter(Boolean)
       .map(function (name) {
-        return String(name).trim();
+        return [normalize(name), name];
       })
-  )].sort(function (a, b) {
+  )].map(function (entry) {
+    return entry[1];
+  }).sort(function (a, b) {
     return a.localeCompare(b, 'fr');
+  });
+  fetch('../data/mtlDistrictpolygons.geojson')
+  .then(function (response) {
+    if (!response.ok) {
+      throw new Error('Could not load arrondissement boundaries');
+    }
+    return response.json();
+  })
+  .then(function (districtData) {
+    input.addEventListener('input', function () {
+      const query = normalize(input.value);
+      if (!query) return;
+
+      const district = districtData.features.find(function (feature) {
+        return normalize(feature.properties.NOM) === query;
+      });
+
+      if (district) {
+        const bounds = L.geoJSON(district).getBounds();
+        if (bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [20, 20], maxZoom: 15 });
+        }
+      }
+    });
+  })
+  .catch(function (error) {
+    status.textContent = 'Could not load arrondissement boundaries.';
+    console.error(error);
   });
 
   // Add each arrondissement as an option that appears while the user types.
@@ -170,15 +205,17 @@ if (matchingArrondissements.length === 0) {
 }
 
 // Get records belonging to any matching arrondissement.
+const matchingKeys = new Set(
+  matchingArrondissements.map(normalize)
+);
+
 const matches = features.filter(function (feature) {
-  return matchingArrondissements.includes(
-    String(feature.properties.arrondissement || '').trim()
-  );
+  return matchingKeys.has(normalize(feature.properties.arrondissement));
 });
 
     // Show a message and stop if there are no matching records.
     if (matches.length === 0) {
-      status.textContent = 'No locations found for ' + selectedArrondissement + '.';
+      status.textContent = 'No locations found for ' + input.value + '.';
       return;
     }
 
@@ -227,7 +264,7 @@ const matches = features.filter(function (feature) {
 
     // Tell the user how many records matched the selected arrondissement.
     status.textContent =
-      matches.length + ' location(s) in ' + selectedArrondissement + '.';
+      matches.length + ' location(s) in ' + input.value + '.';
   });
 }
 
