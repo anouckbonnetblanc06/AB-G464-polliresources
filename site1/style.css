@@ -162,7 +162,7 @@ a { color: var(--accent); }
   .legend-sidebar[open] {
     width: 100%;
     max-width: none;
-    left:0;
+    left:0px; /*I changed this*/
   }
 }
 #map {
