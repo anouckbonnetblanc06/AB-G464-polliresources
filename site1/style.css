@@ -135,31 +135,35 @@ a { color: var(--accent); }
   margin-top: 0;
   font-size: 10px;
 }
-.map-with-sidebar { /*I changed this*/
+.map-with-sidebar {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
+  grid-template-columns: auto minmax(0, 1fr);
   gap: 10px;
   align-items: start;
 }
 
-.legend-sidebar { 
-  display: grid;
-  gap: 0px;
+.legend-sidebar {
+  width: fit-content;
+  max-width: 180px;
 }
 
+.legend-sidebar[open] {
+  width: 180px;
+}
+
+.legend-sidebar summary {
+  cursor: pointer;
+}
 @media (max-width: 800px) {
   .map-with-sidebar {
     grid-template-columns: 1fr;
   }
 
-  .legend-sidebar {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .legend-sidebar[open] {
+    width: 100%;
+    max-width: none;
   }
 }
-
-
-
-
 #map {
   width: 100%;
 }
