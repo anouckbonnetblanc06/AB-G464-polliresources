@@ -122,15 +122,15 @@ a { color: var(--accent); }
 
 .search-toolbox input {
   margin-top: 0;
-  font-size: 10px;
+  font-size: 16px;
 }
 .search-toolbox h2 {
   margin-top: 0;
-  font-size: 10px;
+  font-size: 16px;
 }
 .search-toolbox label {
   margin-top: 0;
-  font-size: 10px;
+  font-size: 16px;
 }
 .search-toolbox p {
   margin-top: 0;
