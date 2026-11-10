@@ -159,7 +159,7 @@ function setupArrondissementSearch(features) {
       if (district) {
         const bounds = L.geoJSON(district).getBounds();
         if (bounds.isValid()) {
-          map.fitBounds(bounds, { padding: [20, 20], maxZoom: 15 });
+          map.fitBounds(bounds, { padding: [0, 0], maxZoom: 100 });
         }
       }
     });
