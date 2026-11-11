@@ -97,10 +97,10 @@ Promise.all([
   ).addTo(map);
 
 
-  document.getElementById('status').textContent =
+  document.getElementById('street-status').textContent =
     grid.features.length + ' hexagons of 500m sides, ' + pipes.features.length + ' green streets';
 }).catch(function (err) {
-  document.getElementById('status').textContent =
+  document.getElementById('street-status').textContent =
     'Could not load the data. Run the notebook first, open the page with Live Server, and look at the console (F12).';
   console.error(err);
 });
