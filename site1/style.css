@@ -52,7 +52,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;   /* story column, then a wider map */
   gap: 10px;
-  background:#d7ccac; /*I changed this*/
+  background:#e3dfd2; /*I changed this*/
   
 }
 @media (max-width: 800px) {
