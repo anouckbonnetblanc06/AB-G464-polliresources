@@ -4,14 +4,21 @@
 
 #Bee supportive is a project launched to help citizens who would like to flourish their gardens and preserve bidoiversity finding  resources such as grains, tools, public places where they can grow flowers nearby.
 
-* Datasets retrieved from https://donnees.montreal.ca/dataset/ were used in this project. The map shows places such as libraries and community gardens recorded in ["lieu culturel et municipaux](https://donnees.montreal.ca/dataset/lieux-culturels) (lastly accessed: 14/10/26) and https://donnees.montreal.ca/dataset/jardins-communautaires (lastly accessed :14/10/26)
+## Datasets retrieved from:
+ https://donnees.montreal.ca/dataset/ were used in this project. 
+ The map shows places such as libraries and community gardens recorded in:
+  ["lieu culturel et municipaux](https://donnees.montreal.ca/dataset/lieux-culturels) (lastly accessed: 14/10/26)
+  https://donnees.montreal.ca/dataset/jardins-communautaires (lastly accessed :14/10/26)
 * creative license: 
 -Creative Commons Attribution 4.0 International (jardins communautaires)
 -Licence Creative Commons 4.0 ( lieux culturels et municipaux)
-* coordinates sytems:
-Ville de Montreal use WGS 84 (EPSG:4326)
+* coordinates sytems: WGS 84 (EPSG:4326)
+-Streets and condition records:
+https://donnees.montreal.ca/fr/dataset/indicateurs-de-condition-des-ruelles (lastly accessed:27/08/2026)
+* creative license: Attribution (CC-BY 4.0)
+* coordinates sytems: WGS 84 (EPSG:4326)
 
-* Datasets were edited in excel and in the Newpoll jupyter's notebook in python. Their names differ from the original ones
+## Datasets were edited in excel and in the Newpoll jupyter's notebook in python. Their names differ from the original ones
 
 # Some edits were made to these datasets
 First  all columns (records)  and rows were kept:
