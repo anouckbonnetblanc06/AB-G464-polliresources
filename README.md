@@ -43,7 +43,7 @@ Expected: a message says no data available maybe you entered the name not correc
 | 2. Read every label |pass (in app.js when value is missing, we can add "|| 'not recorded' " next to when we call for values of a certain property when using .bindpop  so that when values are missing) it shows 'not recorded' |
 | 3. Ask twice |  |  |
 | 4. The edge | pass (it asks) |
-| 5. The data does not come |pass
-| 6. On a phone (size view and my phone) |pass| ... |
+| 5. The data does not come |pass ( in app.js add a function that return a message saying that the file could not load and show it in the console, then add a line in index.hmtl calling what the function returned so that the user can see it on the website and do not need to open the console  )
+| 6. On a phone (size view and my phone) |pass| in index.html the elements and the map are not wrapped together so that there is no overlapping |
 | 7. Mouse in my pocket | not passed yet | ... |
 | 8. Accessibility audit | pass | ... |
