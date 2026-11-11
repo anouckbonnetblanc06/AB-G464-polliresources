@@ -53,7 +53,7 @@ Promise.all([
       layer.bindPopup('<strong>' + p.very_good_state_pct + '% green streets</strong><br>' +
         p.in_very_good_state + ' of ' + p.original_state + '  green streets in this hexagon');
     }
-  }).addTo(map);
+  });//i removed the .addTo(map) so that the layers is switched off when opening the website
 
   // LAYER 2: the combined pipes as small dots. Not added to the map yet:
   // the reader switches it on (Part 4c).
@@ -65,7 +65,7 @@ Promise.all([
       const p = feature.properties;
       layer.bindPopup('<strong>Green Streets</strong><br>Surface Condition: ' + (p.original_condition_surface || 'not recorded') + '<br>Length: ' + p.length_m + ' m');
     }
-  }).addTo(map);
+  }); //i removed the .addTo(map) so that the layers is switched off when opening the website
 
   // PART 4b: the legend. Select the lines below and press Ctrl+/ to switch them on.
   const streetLegend = document.getElementById('street-legend');
@@ -93,7 +93,7 @@ Promise.all([
   L.control.layers(
     { 'Streets': streets },
     { 'Zone containing green streets': gridLayer, 'Green streets in very good state': pipeLayer },
-    { collapsed: false }
+    { collapsed: true } //closed the map control
   ).addTo(map);
 
 
@@ -270,7 +270,7 @@ const matches = features.filter(function (feature) {
 
 fetch('../data/polisourcesUD.geojson')
   .then(function (response) {
-    if (!response.ok) { throw new Error('HTTP ' + response.status + ' loading grainotheque_mtl.geojson'); }
+    if (!response.ok) { throw new Error('HTTP ' + response.status + ' loading polisourcesUD.geojson'); }
     return response.json();
   })
   .then(function (data) {
@@ -335,6 +335,6 @@ fetch('../data/polisourcesUD.geojson')
       shown.features.length + ' of ' + data.features.length + ' grainotheques shown';
   }).catch(function (err) {
     document.getElementById('status').textContent =
-      'Could not load grainotheque_mtl.geojson. Open the console (F12) for details.';
+      'Could not load polisourcesUD.geojson. Open the console (F12) for details.';
     console.error(err);
   });
