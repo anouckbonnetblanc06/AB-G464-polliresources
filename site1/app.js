@@ -2,7 +2,7 @@
 
 // PART 7: preferCanvas draws every circle on one canvas instead of one web page
 // element per pipe. That is the difference between 20 seconds and half a second.
-const map = L.map('map', { preferCanvas: true }).setView([45.51489, -73.64342], 11);
+const map = L.map('map', { keyboard: true, preferCanvas: true }).setView([45.51489, -73.64342], 11);
 const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -284,6 +284,8 @@ fetch('../data/polisourcesUD.geojson')
         const marker = resourceTypes[type] || resourceTypes.other;
 
         return L.marker(latlng, {
+          keyboard:true,
+          title: marker.label+'at' + (feature.properties.name || 'location'),
           icon: L.divIcon({
             className: 'resource-marker',
             html: '<span role="img" aria-label="' + marker.label + '">' +
