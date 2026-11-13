@@ -165,20 +165,11 @@ a { color: var(--accent); }
   cursor: pointer;
 }
 @media (max-width: 1000px) {
-  .map-with-sidebar {
-    grid-template-columns: 1fr;
-  }
-
-  .legend-sidebar[open] {
+  .sidebar-column,
+  .legend-sidebar,
+  .legend {
     width: 100%;
-    max-width: 130vw;
-    left:0px; 
-    box-sizing: border-box;/*I changed this*/
-  }
-  .legend{
-    width: 100%;
-    max-width: 130vw;
-    left:0px; 
-    box-sizing: border-box;/*I changed this*/
+    max-width: none;
+    box-sizing: border-box;
   }
 }
