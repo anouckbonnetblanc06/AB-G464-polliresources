@@ -63,11 +63,11 @@ block of codes used:
 | --- | --- | --- |
 | 1. Cold start | pass (open in a private window and no error in console )
 | 2. Read every label |pass (in app.js when value is missing, we can add "|| 'not recorded' " next to when we call for values of a certain property when using .bindpop  so that when values are missing) it shows 'not recorded' |
-| 3. Ask twice | not passed yet |  |
-| 4. The edge | pass (it asks) |
+| 3. Ask twice | passed | in app.js in the function setupaArrondissementSearch (line 186), results.replaceChildren() clear the results |
+| 4. The edge | pass (it says there is no matching found) |
 | 5. The data does not come |pass ( in app.js add a function that return a message saying that the file could not load and show it in the console, then add a line in index.hmtl calling what the function returned so that the user can see it on the website and do not need to open the console  )
 | 6. On a phone (size view and my phone) |pass| in index.html the elements and the map are not wrapped together so that there is no overlapping |
-| 7. Mouse in my pocket | not passed yet | ... |
+| 7. Mouse in my pocket | not passed yet | add options keyboard= true for map constant |
 | 8. Accessibility audit | pass | ... |
 
 ## lab 8: Part 3: what I found, and one fix
@@ -80,6 +80,8 @@ Fixed means: they do it without hesitating at that spot
 ## To fix this issue: 
 I opened index.html and  replace the <detail> and </detail> by <aside> and </aside> so that the legend appears and we don't need to click on "Map legend" to open it. Then, as suggested by copilo, I modified the section map-with-sidebar in @media so that on the phone the sidebar legend and the map are only one column. I added a new parameter: flex-direction and set it to column. Now the legend on a laptop appears on the side of the map but on top on a phone screen.Finally I added text in in the within  <main class="story">  in html, to explain what green street conditions mean
 
-## Next issues to fix
+## Recheck result: [who, in general terms a classmate;
+check the legend first ; fixed ]
+Before: screenshots/before.png After: screenshots/after.png
 
 
