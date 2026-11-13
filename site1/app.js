@@ -262,7 +262,7 @@ const matches = features.filter(function (feature) {
       results.appendChild(list);
     });
 
-    // yo Tell the user how many records matched the selected arrondissement.
+    // yo heyTell the user how many records matched the selected arrondissement.
     status.textContent =
       matches.length + ' location(s) in ' + input.value + '.';
   });
