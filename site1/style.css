@@ -138,9 +138,18 @@ a { color: var(--accent); }
 }
 .map-with-sidebar {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-columns: 220px minmax(420px, 1fr);
   gap: 10px;
   align-items: start;
+}
+.sidebar-column {
+  display:flex;
+  flex-direction:column;
+  gap:10px
+}
+#map {
+  width: 100%;
+  min-width:0;
 }
 
 .legend-sidebar {
@@ -165,7 +174,4 @@ a { color: var(--accent); }
     max-width: 85vw;
     left:0px; /*I changed this*/
   }
-}
-#map {
-  width: 100%;
 }
