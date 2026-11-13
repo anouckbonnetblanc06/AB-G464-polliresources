@@ -76,4 +76,10 @@ Severity:  2, when i asked them what were the different symbols for they started
 My change: As I do not want the legend to take half of the maps, I will put it above so that it still readable and a section in html what the yellow polygons are for
 Recheck: the same task, given to someone new, with no help.
 Fixed means: they do it without hesitating at that spot
-## AI disclosure:
+
+## To fix this issue: 
+I opened index.html and  replace the <detail> and </detail> by <aside> and </aside> so that the legend appears and we don't need to click on "Map legend" to open it. Then, as suggested by copilo, I modified the section map-with-sidebar in @media so that on the phone the sidebar legend and the map are only one column. I added a new parameter: flex-direction and set it to column. Now the legend on a laptop appears on the side of the map but on top on a phone screen.Finally I added text in in the within  <main class="story">  in html, to explain what green street conditions mean
+
+## Next issues to fix
+
+
