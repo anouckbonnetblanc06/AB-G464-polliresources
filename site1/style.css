@@ -170,8 +170,8 @@ a { color: var(--accent); }
   }
 
   .legend-sidebar[open] {
-    width: 100%;
-    max-width: 120vw;
+    width: 80%;
+    max-width: 80vw;
     left:0px; /*I changed this*/
   }
 }
