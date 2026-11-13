@@ -164,7 +164,13 @@ a { color: var(--accent); }
 .legend-sidebar summary {
   cursor: pointer;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
+  .map-with-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .sidebar-column,
   .legend-sidebar,
   .legend {
