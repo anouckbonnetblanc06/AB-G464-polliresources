@@ -179,3 +179,4 @@ a { color: var(--accent); }
     box-sizing: border-box;
   }
 }
+/* I added this to make the map and sidebar scrollable on small screens */
