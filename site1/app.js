@@ -367,7 +367,7 @@ fetch('../data/polisourcesUD.geojson')
   }).catch(function (err) {
     document.getElementById('status').textContent =
       'Could not load polisourcesUD.geojson. Open the console (F12) for details.';
-    console.error(err);
+    console.error(err); 
   });
 
 // When the user click on the map, it fetches the current temperature from the Open-Meteo API and displays it in a popup.
