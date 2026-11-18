@@ -56,7 +56,10 @@ block of codes used:
 |1. setupArrondissementSearch |filter what is entered in the search tool box  defined in the section "search-toolbox" of index.html (l.36/l.49) and make sure with the normalize function that when the user enter a name of a borough it is not sensitive to lower/upper case and spaces between letters (l.110-125). As arrondissement names may not totaly matched for community gardens names of arrondissement for each locations are compared and renamed similarly then the resulting names are filtered by alphabetical orders (l.129-142) and shown in the search-tool box list. In a second time, import datas from mtlDistrictpolygons.geojson, get arrondissement names from the user, normalize them and zoom to the borough on the map with map.fitBounds (l.143-166). Tells the website to prompt the user to enter the name of an arrondissemnt and making the results disappear when used again(l.182-199). When the suer enter or select the name of an arrondissment, the website must find all arrondissemnts corresponding by applying the normalize functions (l.197-199). If the arrondissement entered do not match any arrondissement, the website returns 'No matching arrondissement. Try a name from the suggestions.' (l.202-205) |app.js (l.110-199), the function is defined, then l.277, given as input polisourcesUD.geojson after it is imported | Ai help with giving the code|
 |2.|constant matchingKeys | normalize the name for each borough so that it corresponds to the one proposed by the website|app.js (l.208-210)| Ai help with coding lines|
 |3.|constant match | for each arrondiisement name, tell the user if locations were found or not, sorted the locations in the selected arrondissment by type of resources, and prints no location were found if no resource swere found for the selected arrondissement. Also, it counts the total  number of locations with resources and report it above the list |app.js (l.212-269)| Ai help with coding lines|
-||code to design and edits the search-toolbox characteristics (I set the parameters after adding the code) | style.css (l.114-138)|location| Ai help with coding lines |
+|search-toolbox,.search-toolbox input, searchtoolbox  |code to design and edits the search-toolbox characteristics (I set the parameters: width, padding, font-size etc. after adding the code) | style.css (l.114-138)|location| Ai help with coding lines |
+
+## New features coded with Github Copilot:
+|1.|map.on and layer.on| When clicking on a map 
 
 ## 8 ## Pre-flight report (Lab 7)
 | Check | Result | What I did |
@@ -82,6 +85,6 @@ I opened index.html and  replace the <detail> and </detail> by <aside> and </asi
 
 ## Recheck result: [who, in general terms a classmate;
 check the legend first ; fixed ]
-Before: screenshots/before.png After: screenshots/after.png
+Before: screenshot/before.png After: #screenshots/after.png
 
 
