@@ -44,7 +44,8 @@ Promise.all([
   const gridLayer = L.geoJSON(grid, {
     style: function (feature) {
       return {
-        color: '#666666', weight: 0.5, fillOpacity: 10,
+        color: '#666666', weight: 0.5, fillOpacity: 10,bubblingMouseEvents: true,
+        keyboard: true,
         fillColor: colourFor(feature.properties.very_good_state_pct)          // PART 4a: colour each square by its share of combined pipes
       };
     },
@@ -59,7 +60,8 @@ Promise.all([
   // the reader switches it on (Part 4c).
   const pipeLayer = L.geoJSON(pipes, {
     pointToLayer: function (feature, latlng) {
-      return L.circleMarker(latlng, { radius: 2, weight: 0, fillOpacity: 0.8, fillColor: '#1F2D5A' });
+      return L.circleMarker(latlng, { bubblingMouseEvents: true,
+        keyboard: true,radius: 2, weight: 0, fillOpacity: 0.8, fillColor: '#1F2D5A' });
     },
     onEachFeature: function (feature, layer) {
       const p = feature.properties;
@@ -313,10 +315,37 @@ fetch('../data/polisourcesUD.geojson')
             // Keep the site name when internet isn't a valid URL.
           }
         }
-        layer.bindPopup('<strong>' + title  + '</strong><br>' +
+        //if we want to add current temperatures as well on the popup , like what we do with map.on below
+        //first we define what is to be added in the popup
+        const popupContent = '<strong>' + title  + '</strong><br>' +
           'Address: ' + (p.adresse || 'not recorded') + '<br>' +
           'Resources: ' + (p.resources || 'not recorded') + '<br>' +
-          'Availability: ' + (p.dispo || 'not recorded') + '<br>');
+          'Availability: ' + (p.dispo || 'not recorded') + '<br>'
+        layer.bindPopup(popupContent); // parameters define in popupContent will appear on popup
+        layer.on('click', function (event) {
+          const params = new URLSearchParams({
+            latitude: event.latlng.lat,
+            longitude: event.latlng.lng,
+            current: 'temperature_2m,relativehumidity_2m'
+        });
+          layer.setPopupContent(popupContent + '<br>Loading current temperature and humidity...');//add a loading message to the popup
+          fetch('https://api.open-meteo.com/v1/forecast?' + params) //get the temperatures from this link
+          //retrieve datas or prints an error if the datas were not found as with map.on
+            .then(function (response) { 
+              if (!response.ok) throw new Error('HTTP ' + response.status);
+              return response.json();
+            })
+            .then(function (data) {
+              layer.setPopupContent(popupContent + '<br><strong>Current temperature:</strong> ' +
+                data.current.temperature_2m + ' °C' +
+                '<br><strong>Current humidity:</strong> ' +
+                data.current.relativehumidity_2m + ' %');
+            })
+            .catch(function (error) {
+              layer.setPopupContent(popupContent + '<br>Could not load current weather data.');
+              console.error(error);
+            });
+        });
       },
     }).addTo(map);
 
@@ -340,3 +369,38 @@ fetch('../data/polisourcesUD.geojson')
       'Could not load polisourcesUD.geojson. Open the console (F12) for details.';
     console.error(err);
   });
+
+// When the user click on the map, it fetches the current temperature from the Open-Meteo API and displays it in a popup.
+
+//Here define the parameters and assign them the values of the parameters at the point where the user clicked
+map.on('click', function (event) {  
+  const params = new URLSearchParams({
+    latitude: event.latlng.lat,
+    longitude: event.latlng.lng,
+    current: 'temperature_2m,relativehumidity_2m' // Add relative humidity to the parameters
+  });
+// Create a popup at the clicked location with a loading message
+  const popup = L.popup()
+    .setLatLng(event.latlng)
+    .setContent('Loading current temperature and humidity...')
+    .openOn(map);
+// Fetch the current temperature from the Open-Meteo API by adding the defined parameters to the url
+  fetch('https://api.open-meteo.com/v1/forecast?' + params)
+    .then(function (response) {
+      if (!response.ok) throw new Error('HTTP ' + response.status); // Check if the response is OK, if not throw an error
+      return response.json();
+    })
+    .then(function (data) { //if the data were found, it will add these datas to the popup 
+      popup.setContent(
+        '<strong>Current temperature:</strong> ' +
+        data.current.temperature_2m + ' °C' +
+        '<br><strong>Current humidity:</strong> ' +
+        data.current.relativehumidity_2m + ' %'
+      );
+    })
+    .catch(function (error) { //if the data were not found, it will add this message to the popup and log the error in the console
+      popup.setContent('Could not load the current temperature and humidity.');
+      console.error(error);
+    });
+});
+//let's do the same with humidity 
