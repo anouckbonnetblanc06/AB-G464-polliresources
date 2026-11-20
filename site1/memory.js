@@ -20,22 +20,22 @@
 const MEMORY = {
   // What a reader can add. Colour plus words, never colour alone.
   categories: {
-    seen:    { label: "I saw this here",       colour: "#1f77b4" },
-    problem: { label: "Something is wrong",    colour: "#d95f02" },
+    resources:    { label: "resources you can find here",       colour: "#d8c83a" },
+    newsuitablespace: { label: "here is a new suitable spots for pollinators",    colour: "#1c5b09" },
     idea:    { label: "Idea or suggestion",    colour: "#1b9e77" }
   },
-  maxNote: 80,                       // characters
+  maxNote: 80,                       // numbers of characters
   // Where points may go: south, north, west, east. null means anywhere.
-  bounds: null,                      // e.g. { south: 45.40, north: 45.60, west: -73.75, east: -73.45 }
+  bounds: { south: 45.40, north: 45.60, west: -73.75, east: -73.45 },                      // e.g. { south: 45.40, north: 45.60, west: -73.75, east: -73.45 }
   storageKey: null,                  // personal route: null gives each page folder its own notebook
   position: "topright",              // where the panel sits: topright, topleft, bottomright, bottomleft
   collection: "points",              // shared route: the Firestore collection name
   // Shared route only: paste your Firebase web config here. Leave apiKey as PASTE for the personal route.
   firebaseConfig: {
-    apiKey: "PASTE",
-    authDomain: "PASTE.firebaseapp.com",
-    projectId: "PASTE",
-    appId: "PASTE"
+    apiKey: "AIzaSyAFDdTKlNO4dS4mvBOjULW3tTJ6deguwsk",
+    authDomain: "polisources.firebaseapp.com",
+    projectId: "polisources",
+    appId: "1:40618516728:web:70eadd2abae840a86e5b0d"
   }
 };
 // ===== END OF THE PART TO CHANGE =====
