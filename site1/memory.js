@@ -56,7 +56,7 @@ function addMemory(map) {
   const Panel = L.Control.extend({
     onAdd() {
       const box = L.DomUtil.create("div", "memory-panel");
-      box.style.cssText = "background:#fff;padding:8px 10px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.35);font:14px Arial,sans-serif;max-width:230px";
+      box.style.cssText = "background:#fff;padding:8px 10px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.35);font:14px Arial,sans-serif;max-width:130px";
       box.innerHTML =
         '<button type="button" data-m="add" style="width:100%;min-height:40px;font-weight:bold;cursor:pointer">Add a point</button>' +
         '<div data-m="status" role="status" style="margin:6px 0">Loading...</div>' +
