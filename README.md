@@ -87,4 +87,9 @@ I opened index.html and  replace the <detail> and </detail> by <aside> and </asi
 check the legend first ; fixed ]
 Before: screenshot/before.png After: #screenshots/after.png
 
+## What My Map Remembers
+What it remembers, and why that suits your readers (one or two sentences).
+Where it is kept: personal (in the reader's own browser, on their device; nobody else sees it) or shared (Firebase, the region you chose, and when you will delete it).
+How a reader clears it (delete a point, Reset view, remove a favourite, or clear the site's data in their browser).
+Which file does the work, and one thing you understand about how it works, in your own words. (A4 will ask.)
 
