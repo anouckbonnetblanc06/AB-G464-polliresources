@@ -22,8 +22,8 @@
       <p>Detailed information on native pollinators and plants present in the boroughsare not available on the map, data is missing. However you can use the links by clicking on Pollinators  </p>
         
       </section>
-      <section>
-        <h2>Sources</h2>
+      <details>
+        <summary>Sources</summary>
         <ul>
           <li><a href="https://donnees.montreal.ca/dataset/jardins-communautaires">community gardens</a>, Ville de Montreal, Creative Commons Attribution 4.0 International, accessed : 14/10/26. More informations were added to this dataset. These are the postal codes, and website </li>
           <li><a href="https://www.donneesquebec.ca/recherche/dataset/vmtl-lieux-culturels">municipal and cultural buildings </a>, Ville de Montreal, Licence Creative Commons 4.0, accessed :14/10/26. Not all the libraries from this datasets are shown on the map</li>
@@ -31,7 +31,7 @@
         </ul>
         
 <!--I changed this-->
-      </section>
+      </details>
     </main>
     <div class="map-column">
       <section class="search-toolbox">
@@ -70,5 +70,7 @@
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
+  <script src="memory.js"></script> //here we add the memory.js file to the index.html file, so that we can use it in the app.js file
+  <script>addMemory (map);</script>
 </body>
 </html>
