@@ -113,7 +113,7 @@ a { color: var(--accent); }
 
 .search-toolbox {
   position: static;
-  width: min(800px, 100%);
+  width: min(900px, 100%);
   padding: 8px;
   max-height: 200px;
   margin-bottom: 10px;
