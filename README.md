@@ -88,8 +88,7 @@ check the legend first ; fixed ]
 Before: screenshot/before.png After: #screenshots/after.png
 
 ## What My Map Remembers
-What it remembers, and why that suits your readers (one or two sentences).
-Where it is kept: personal (in the reader's own browser, on their device; nobody else sees it) or shared (Firebase, the region you chose, and when you will delete it).
-How a reader clears it (delete a point, Reset view, remove a favourite, or clear the site's data in their browser).
-Which file does the work, and one thing you understand about how it works, in your own words. (A4 will ask.)
-
+The user can add a point and only them (and me, on firebase) can delete it, With the "Add a point" defined in site1/memory.js they can pin a place not showing on the original map with resources such as grains, tools, available free places to plant. The idea is also that they are able to share the places they made suitable for pollinators. (Later I may also update the feature so they can share a picture). The user can add an "idea or suggestion" category point if they want to give other users tips for planting in a certain area. I may add a "report" category later so that the user can report  something which  could disturb or threaten pollinators.    
+Where it is kept: it is shared in firebase, only available for nMontreal users;the new points made may be deleted at the end of term after the course ends.
+To remove a point the user may select "Delete the point" on the popup that appears after clicking the point they added. Only them can do it. 
+memory.js define the user rules and a message appears when the user does not respect them, the "add a point feature", "the popup" and make sure when a point is added, it still appears every time we refresh the page unless the user removed it.
