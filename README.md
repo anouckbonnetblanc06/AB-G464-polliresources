@@ -28,10 +28,12 @@ https://donnees.montreal.ca/dataset/limites-administratives-agglomeration/resour
 # edits  made to ["lieux culturels et municipaux"] (renamed: lieuxculturels.csv):
 *remove_accents.py:
 - the function was used to remove accents from the csv file and to rewrite it as lieuxculturels_no_accents
+
 *In the notebook Newpoll: 
 - lieuxculturels was filtered by its "Noms du reseau" column. Records registered as "Bibliotheque" (library) were retained and wrote to an new csv file Bibliotheque.csv
+
 *In Excel (an new excel sheet was created:): 
--  I kept 32 records from Bibliotheque.csv with library names recorded in the list of libraries that provide seeds and tools (available ["here"] (https://montreal.ca/en/how-to/get-seeds-and-borrow-gardening-tools))
+-  I kept 32 records from Bibliotheque.csv with library names recorded in the list of libraries that provide seeds and tools (available ["here"](https://montreal.ca/en/how-to/get-seeds-and-borrow-gardening-tools))
 - Information from these records were rewritten and reorganized in the new dataframe
 -  columns kept: Arrondissemnt (arrondissement), Nom du lieu culturel municipal (name), Adresse (adresse), Code postal (code.postal), Telephone general (telephone.general), Site Internet (site.internet), Longitude (lon), Latitude (lat)
 - columns added: resources, dispo, document.requis
