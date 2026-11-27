@@ -115,6 +115,48 @@ function setupArrondissementSearch(features) {
   const options = document.getElementById('arrondissement-options');
   const status = document.getElementById('arrondissement-status');
   const results = document.getElementById('arrondissement-results');
+  let featuresAwaitingMapClick = [];
+
+  // When the user clicks on the map, find the three closest matching locations and show them in the results area.
+  map.on('click', function (event) { 
+    if (featuresAwaitingMapClick.length === 0) return;
+
+    const nearest = featuresAwaitingMapClick //define the nearest variable 
+      .map(function (feature) {
+        const coordinates = feature.geometry.coordinates; // Get the coordinates of the feature
+        const location = L.latLng(coordinates[1], coordinates[0]); // Create a Leaflet LatLng object from the coordinates
+
+        return {
+          feature: feature,
+          distance: map.distance(event.latlng, location) // calculate the distance from the clicked point to that feature
+        };
+      })
+      .sort(function (a, b) {
+        return a.distance - b.distance; //a.distance -b.distance sorts the features in ascending order of distance from the clicked point 
+      })
+      .slice(0, 3); // Keep only the three closest features
+
+    results.replaceChildren(); //Clear any results
+
+    const list = document.createElement('ul'); // Create a new unordered list to hold the results
+
+    nearest.forEach(function (item) { // For each of the three closest features, create a list item with its name, resources, and distance from the clicked point
+      const properties = item.feature.properties;
+      const entry = document.createElement('li');
+      const name = properties.name || 'Unnamed site';
+      const resource = properties.resources || 'Not specified';
+
+      entry.textContent =
+        name + ' — ' + resource + ' (' + Math.round(item.distance) + ' m away)';
+
+      list.appendChild(entry); // Add the list item (entry)  to the unordered list
+    });
+
+    results.appendChild(list); // Add the unordered list to the results area 
+    status.textContent =
+      'Showing the ' + nearest.length + ' closest location(s) to your map click.';
+    
+  });
 
   // Trim extra spaces and ignore upper/lowercase differences when comparing text.
   function normalize(value) {
@@ -142,36 +184,7 @@ function setupArrondissementSearch(features) {
   }).sort(function (a, b) {
     return a.localeCompare(b, 'fr');
   });
-  fetch('../data/mtlDistrictpolygons.geojson')
-  .then(function (response) {
-    if (!response.ok) {
-      throw new Error('Could not load arrondissement boundaries');
-    }
-    return response.json();
-  })
-  .then(function (districtData) {
-    input.addEventListener('input', function () {
-      const query = normalize(input.value);
-      if (!query) return;
-
-      const district = districtData.features.find(function (feature) {
-        return normalize(feature.properties.NOM) === query;
-      });
-
-      if (district) {
-        const bounds = L.geoJSON(district).getBounds();
-        if (bounds.isValid()) {
-          map.fitBounds(bounds, { padding: [0, 0], maxZoom: 100 });
-        }
-      }
-    });
-  })
-  .catch(function (error) {
-    status.textContent = 'Could not load arrondissement boundaries.';
-    console.error(error);
-  });
-
-  // Add each arrondissement as an option that appears while the user types.
+  //this allows the user to select an arrondissemnt from a dropdown list
   options.replaceChildren(
     ...arrondissements.map(function (name) {
       const option = document.createElement('option');
@@ -179,9 +192,64 @@ function setupArrondissementSearch(features) {
       return option;
     })
   );
+  fetch('../data/mtlDistrictpolygons.geojson')
+  .then(function (response) {
+    if (!response.ok) {
+      throw new Error('Could not load arrondissement boundaries');
+    }
+    return response.json();
+  })
+  // Highlight the selected arrondissemnt on the map when the user types in or selects a name 
+  .then(function (districtData) {
+    let selectedDistrictLayer = null;
+
+    input.addEventListener('input', function () {
+  // Remove the previous borough highlight.
+      if (selectedDistrictLayer) {
+        map.removeLayer(selectedDistrictLayer);
+        selectedDistrictLayer = null;
+      }
+
+      const query = normalize(input.value);
+      if (!query) return;
+
+      const district = districtData.features.find(function (feature) {
+        return normalize(feature.properties.NOM) === query;
+      });
+
+      if (!district) return;
+
+      selectedDistrictLayer = L.geoJSON(district, {
+        interactive: false,
+        style: {
+          color: '#efb811',
+          weight: 4,
+          opacity: 1,
+          fillColor: '#dce060',
+          fillOpacity: 0.18
+        }
+      }).addTo(map);
+
+
+      const bounds = selectedDistrictLayer.getBounds();
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { padding: [10, 10], maxZoom: 50 });
+      }
+    });
+  });
+  
+  
+
+    
+      
+      
+  
 
   // Run this code whenever the user types in or selects a search value.
   input.addEventListener('input', function () {
+     featuresAwaitingMapClick = [];
+     results.replaceChildren(); //clear the results when the user types in or selects a search value
+
     const query = normalize(input.value);
 
     // Clear results from the previous search.
@@ -221,52 +289,13 @@ const matches = features.filter(function (feature) {
       return;
     }
 
-    // Create a group for each resource type, such as "graine" or "graine et outil".
-    const groups = new Map();
-
-    matches.forEach(function (feature) {
-      const properties = feature.properties;
-
-      // Use "Not specified" if a record has no resource value.
-      const resource = String(properties.resources || '').trim() || 'Not specified';
-
-      // Start an empty list the first time this resource type appears.
-      if (!groups.has(resource)) {
-        groups.set(resource, []);
-      }
-
-      // Add the record's name to the list for its resource type.
-      groups.get(resource).push(properties.name || 'Unnamed site');
-    });
-
-    // Sort the resource groups alphabetically and display each group.
-    [...groups.keys()].sort(function (a, b) {
-      return a.localeCompare(b, 'fr');
-    }).forEach(function (resource) {
-      // Make a heading with the resource type.
-      const heading = document.createElement('h3');
-      heading.textContent = resource;
-      results.appendChild(heading);
-
-      // Make a list of record names for this resource type.
-      const list = document.createElement('ul');
-
-      // Sort names alphabetically, then add each one as a list item.
-      groups.get(resource).sort(function (a, b) {
-        return a.localeCompare(b, 'fr');
-      }).forEach(function (name) {
-        const item = document.createElement('li');
-        item.textContent = name;
-        list.appendChild(item);
-      });
-
-      // Add the finished list under its resource heading.
-      results.appendChild(list);
-    });
-
-    // yo heyTell the user how many records matched the selected arrondissement.
+    // prompt the user to click on the map to see the three closest locations.
+    featuresAwaitingMapClick = matches;
     status.textContent =
-      matches.length + ' location(s) in ' + input.value + '.';
+      'Click somewhere on the map to see the three closest locations in ' +
+      input.value + '.';
+    return;
+  
   });
 }
 
